@@ -5,13 +5,16 @@
 	<meta name="keywords" content="html5, css3, js, javascript, jquery, jQuery, sass, scss, gulp, pug, jade, BEM, БЭМ, bootstrap, Бутстрап, webpack, mobile first, responsive, adaptive, резиновая верстка, адаптивная верстка, CMS Wordpress">
 	<meta name="description" content="Кроссбраузерная, валидная, адаптивная верстка лендингов, сайтов визиток, интернет магазинов. HTML5, CSS3, JS, jQuery.">
 	<meta name="author" content="Пташкина Лилия Игоревна">
-	<!--<meta name="viewport" content="width=device-width,initial-scale=1">-->
-	<!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>Карьера</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+<!--[if lt IE 8]>
+	<p>Ваш браузер <strong>устарел</strong>. Пожалуйста, <a href="http://browsehappy.com/">обновите</a></p>
+<![endif]-->
 	<div class="wrapper">
 		<header class="page-head">
 			<div class="container">
@@ -59,12 +62,11 @@
 						</ul>
 					</nav>
 				</aside>
-				<main class="career">
-				  <div class="career-author">
-				  <h1 class="career-author__title">Карьерный путь</h1>
-						<div class="career-author__photo">
-							<img src="img/content/freelance.jpg" alt="логотип фриланса" width="402" height="262" class="career-author__image">
-						</div>
+				<main class="career-author">
+				  <h1 class="page-title page-title__career">Карьерный путь</h1>
+					<div class="career-author__photo">
+						<img src="img/content/freelance.jpg" alt="логотип фриланса" width="402" height="262" class="career-author__image">
+					</div>
 						<ul class="career-list">
 							<li class="career-list__item">
 								<div class="career-list__resume">
@@ -102,7 +104,6 @@
 								</div>
 							</li>
 						</ul>
-				  </div>
 				</main>
 			</div>
 		</section>

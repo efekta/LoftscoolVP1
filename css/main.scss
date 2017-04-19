@@ -1,0 +1,23 @@
+// layout vars 
+$container-width: 940px;
+$footer-height: 50px;
+
+// colors
+$gray: #727272;
+$black: #414141;
+$white: #f6f6f6;
+$blue: #33c1e3;
+$red: #e85f61;
+
+// laout
+@import "layout/normalize";
+@import "layout/settings";
+@import "layout/fonts";
+@import "layout/font-awesome";
+@import "sections/about";
+@import "sections/career";
+@import "sections/content";
+@import "sections/header";
+@import "sections/footer";
+@import "sections/portfolio";
+@import "sections/sidebar";

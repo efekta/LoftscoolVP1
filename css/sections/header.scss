@@ -1,0 +1,27 @@
+.page-head {
+	min-height: 79px;
+	padding: 10px 0;
+  	background: $white;
+  	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+}
+.head-author__about {
+	width: 300px;
+	float: left;
+}
+.wrap-author {
+	display: inline-block;
+	vertical-align: middle;
+	width: 60px;
+	height: 60px;
+  	border-radius: 50%;
+  	border: 1px solid $gray;
+  	overflow: hidden;
+}
+.head-author__name {
+	margin-left: 20px;
+	vertical-align: middle;
+}
+.head-author__contacts {
+	width: 160px;
+	float: right;
+}

@@ -458,9 +458,20 @@ li {
   vertical-align: middle; }
 
 .head-author__contacts {
+  position: relative;
   width: 160px;
   float: right;
   text-align: right; }
+
+.head-contacts__popup-list::before {
+  content: "";
+  display: block;
+  background: url(../img/icons/spritesheet.png) repeat-x;
+  width: 18px;
+  height: 5px;
+  background-position: -5px -85px;
+  position: absolute;
+  bottom: 10px; }
 
 .head-contacts__list {
   display: none; }
@@ -471,10 +482,5 @@ li {
   vertical-align: middle;
   padding: 20px 0;
   color: #32c3e5; }
-
-.head-author__contacts::before {
-  position: relative;
-  content: "";
-  display: block; }
 
 /*# sourceMappingURL=main.css.map */

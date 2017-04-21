@@ -379,7 +379,8 @@ body, html {
 body {
   margin: 0;
   background: #f6f6f6;
-  font-family: fira_sanslight; }
+  font-family: fira_sanslight;
+  color: #414141; }
 
 .container {
   width: 940px;
@@ -435,7 +436,9 @@ li {
   padding: 10px 0;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
-  font-weight: bold; }
+  font-size: 18px;
+  font-weight: bold;
+  color: #414141; }
 
 .head-author__about {
   width: 300px;
@@ -456,6 +459,22 @@ li {
 
 .head-author__contacts {
   width: 160px;
-  float: right; }
+  float: right;
+  text-align: right; }
+
+.head-contacts__list {
+  display: none; }
+
+.head-contacts__popup-list {
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 20px 0;
+  color: #32c3e5; }
+
+.head-author__contacts::before {
+  position: relative;
+  content: "";
+  display: block; }
 
 /*# sourceMappingURL=main.css.map */

@@ -3,7 +3,9 @@
 	padding: 10px 0;
   	background-color: $white;
   	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+  	font-size: 18px;
   	font-weight: bold;
+  	color: $black;
 }
 .head-author__about {
 	width: 300px;
@@ -25,4 +27,22 @@
 .head-author__contacts {
 	width: 160px;
 	float: right;
+	text-align: right;
+
+}
+
+.head-contacts__list {
+	display: none;
+}
+.head-contacts__popup-list {
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 20px 0;
+	color: $blue;
+}
+.head-author__contacts::before {
+	position: relative;
+    content: "";
+    display: block;
 }

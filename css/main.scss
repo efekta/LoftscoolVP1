@@ -1,3 +1,4 @@
+
 // layout vars 
 $container-width: 940px;
 $footer-height: 50px;
@@ -5,6 +6,7 @@ $footer-height: 50px;
 // colors
 $gray: #727272;
 $black: #414141;
+$liteblack: #646464;
 $background: #f6f6f6;
 $blue: #32c3e5;
 $red: #e85f61;
@@ -22,3 +24,6 @@ $white: #ffffff;
 @import "sections/footer.scss";
 @import "sections/portfolio.scss";
 @import "sections/sidebar.scss";
+
+// mixins
+@import "helpers/mixins.scss"

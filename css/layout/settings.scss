@@ -9,13 +9,21 @@ body {
 	margin: 0;
 	background: $background;
 	font-size: 18px;
-	line-height: 1.42em;
-	font-family: "fira_sansregular", Arial, sans-serif;
-	color: $black;
+	font-weight: 400;
+	line-height: 1.41;
+	font-family: "fira", Arial, sans-serif;
+	color: $liteblack;
+	-webkit-font-smoothing: antialiased;
 }
+
 .container {
 	width: $container-width;
 	margin: 0 auto;
+	@extend %clearfix;
+}
+
+.content {
+	@extend %clearfix;
 }
 .wrapper {
 	overflow: hidden;
@@ -39,4 +47,13 @@ ul {
 }
 li {
 	list-style: none;;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	// font-weight: normal;
 }

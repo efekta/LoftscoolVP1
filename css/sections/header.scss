@@ -3,13 +3,12 @@
 	padding: 10px 0;
   	background: $white;
   	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
-  	font-weight: bold;
-  	color: $black;
+  	font-weight: 700;
   	margin-bottom: 29px;
 }
 
 .head-author__about {
-	width: 300px;
+	width: 50%;
 	float: left;
 }
 
@@ -24,23 +23,25 @@
 }
 
 .head-author__name {
+	max-width: 235px;
 	margin-left: 20px;
+	display: inline-block;
 	vertical-align: middle;
-	font-weight: normal;
+	font-weight: 500;
 }
 
 .head-author__contacts {
 	position: relative;
-	width: 160px;
+	width: 50%;
 	float: right;
 	text-align: right;
-	font-weight: bold;
+	font-weight: 600;
 
 		&::before {
 		content: "";
 		display: block;
     	position: absolute;
-    	left: 37px;
+    	right: 0;
     	bottom: 15px;
     	width: 122px;
     	height: 4px;
@@ -51,7 +52,7 @@
 		content: "";
 		display: block;
     	position: absolute;
-    	left: 37px;
+    	right: 0;
     	bottom: 15px;
     	width: 122px;
     	height: 4px;
@@ -73,50 +74,4 @@
 
 .head-contacts__list {
 	display: none;
-}
-.page-sidebar {
-	width: 220px;
-	float: left;
-	margin-right: 20px;
-}
-.page-sidebar__item {
-	margin-bottom: 30px;
-}
-.page-sidebar__link {
-	text-decoration: none;
-	color: $black;
-	// font-weight: bold;
-	
-	&:hover {
-		color: $blue;
-	}
-}
-
-.about {
-	width: 700px;
-	float: right;
-}
-.about-author {
-	width: 300px;
-	float: left;
-	margin-right: 20px;
-}
-.author {
-	width: 230px;
-	height: 230px;
-	border-radius: 50%;
-	border: 5px solid $white;
-    border-radius: 50%;
-    overflow: hidden;
-}
-.author-page {
-	width: 380px;
-	float: right;
-	margin-right: 0;
-}
-
-.page-title {
-	font-size: 35px;
-	margin: 0;
-	padding: 0;
 }

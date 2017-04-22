@@ -1,0 +1,45 @@
+.page-sidebar {
+	width: 220px;
+	float: left;
+}
+
+.page-sidebar__list {
+	text-align: right;
+}
+
+.page-sidebar__item {
+	position: relative;
+	margin-bottom: 30px;
+	padding: 10px 0;
+}
+
+
+.page-sidebar__link {
+	border-right: 6px solid transparent;
+	padding: 10px 25px 10px 0;
+	text-decoration: none;
+	color: $liteblack;
+	font-weight: 400;
+	
+	&:hover {
+		color: $blue;
+	}
+}
+
+.page-sidebar__item_selected .page-sidebar__link{
+		border-color: $blue;
+		font-weight: 600;
+		color: $blue;
+}
+// .page-sidebar__item_selected::after {  /*Какой способ лучше?*/
+// 	content: "";
+// 	display: block;
+// 	position: absolute;
+// 	right: 0px;
+//     top: 0;
+// 	border-right: 6px solid $blue;
+// 	height: 100%
+// }
+.page-sidebar__link-title {
+	padding: 0 0 0 12px;
+}

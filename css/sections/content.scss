@@ -1,0 +1,32 @@
+.content {
+	width: 700px;
+	float: right;
+}
+
+.about-author {
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+}
+
+.author {
+	width: 230px;
+	height: 230px;
+	border-radius: 50%;
+	border: 5px solid $white;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.about-page {
+	width: 380px;
+	float: right;
+	margin-right: 0;
+}
+
+.page-title {
+	font-size: 35px;
+	line-height: 45px;
+	margin: 0;
+	padding: 0;
+}

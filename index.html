@@ -62,14 +62,15 @@
 					</nav>
 				</aside>
 				<main class="content">
-					<div class="about-author">
-						<div class="author">
-							<img src="img/content/foto-author.jpg" alt="фото автора" width="230" height="230" class="author__photo">
+					<div class="about">
+						<div class="about-author">
+							<div class="author">
+								<img src="img/content/foto-author.jpg" alt="фото автора" width="230" height="230" class="author__photo">
+							</div>
 						</div>
-					</div>
 					<div class="about-page">
 						<h1 class="page-title page-title--about">Обо мне</h1>
-							<div class="about-text">
+							<div class="about-page__text about-page__text-block">
 								<p>
 									Давайте знакомиться! Меня зовут Лилия. Я из Воронежской области города Нововоронежа. По образованию экономист. В мире фриланса с 2009 года. Я проложила долгий путь к профессии верстальщика. Начала свою карьеру от простого рерайтера, копирайтера. Далее меня заинтересовал интернет-маркетинг и seo. Я создала два собственных блога и училась маркетингу и продвижению на них. Путь поиска себя остановился в 2016 году. Работая со своими блогами я поняла, что больше всего меня интересует магия верстки, разработки сайтов. Теперь я занимаюсь версткой сайтов различной тематики (сайт визитка, интернет-магазин, портал, Landing Page).
 								</p>
@@ -77,40 +78,37 @@
 									Какова моя верстка? Верстаю по стандартам W3C (валидный код), соблюдаю семантику и кроссбраузерность (IE9+, Firefox, Opera, Chrome, Yandex, Safari, верстка под IE8 обговаривается отдельно). Верстка блочная, полное соответствие макету, а так же Perfect Pixel для меня не пустое слово. При необходимости оптимизирую код для поисковых роботов.
 									Уделяю внимание поведению сайта в ответ на действия пользователя, если дизайнер не прорисовал это в макете, я додумаю и предложу свой вариант.
 								</p>
-								<div class="skils">
-									<h2 class="skils__title">Skils:</h2> 
-									<ul class="skils__list">
-										<li class="skils__item">Html/Html5</li>
-										<li class="skils__item">Css/Css3</li>
-										<li class="skils__item">JavaScript</li>
-										<li class="skils__item">jQuery</li>
-										<li class="skils__item">БЭМ-нейминг</li>
-										<li class="skils__item">Sass</li>
-										<li class="skils__item">Gulp</li>
-										<li class="skils__item">Photoshop</li>
-										<li class="skils__item">Illustrator</li>
-										<li class="skils__item">Avocode</li>
-										<li class="skils__item">Pixel Perfect</li>
-										<li class="skils__item">Работа с SVG</li>
-										<li class="skils__item">Git</li>
-										<li class="skils__item">Php/Ajax(обработка форм)</li>
-										<li class="skils__item">CMS Wordpress</li>
-										<li class="skils__item">Bootstrap</li>
-										<li class="skils__item">API Карт - Яндекс/Google</li>
-										<li class="skils__item">Адаптивная верстка / Responsive / Mobile First</li>
-										<li class="skils__item">Простой, читабельный, контекстно независимый код </li>
-									</ul>
-								</div>
 								<p>
 									Соблюдаю сроки, всегда на связи. Предпочитаю заказчика, который ставит конкретные задачи. Связаться со мной можно по указанным контактам. Буду рада взаимовыгодному сотрудничеству!
 								</p>
 								</div>
 								<div class="author-download">
-									<a href="#" class="btn author-download__link" download>
-										<span class="author-download__icon"></span>
-										<span class="author-download__title">Скачать резюме</span>
+									<a href="#" class="btn" download>
+										<i class="btn__icon fa fa-download"></i>
+										<span class="btn__title">Скачать резюме</span>
 									</a>
 							</div>
+							<!-- <div class="skils">
+								<h2 class="skils__title">Skils:</h2> 
+								<ul class="skils__list">
+									<li class="skils__item">Html/Html5</li>
+									<li class="skils__item">Css/Css3</li>
+									<li class="skils__item">JavaScript/jQuery</li>
+									<li class="skils__item">БЭМ-нейминг</li>
+									<li class="skils__item">Sass/Gulp</li>
+									<li class="skils__item">Photoshop/Illustrator/Avocode</li>
+									<li class="skils__item">Pixel Perfect</li>
+									<li class="skils__item">Работа с SVG</li>
+									<li class="skils__item">Git</li>
+									<li class="skils__item">Php/Ajax(обработка форм)</li>
+									<li class="skils__item">CMS Wordpress</li>
+									<li class="skils__item">Bootstrap</li>
+									<li class="skils__item">API Карт - Яндекс/Google</li>
+									<li class="skils__item">Адаптивная верстка / Responsive / Mobile First</li>
+									<li class="skils__item">Простой, читабельный, контекстно независимый код </li>
+								</ul>
+						</div>							 -->
+						</div>
 					</div>
 				</main>
 			</div>
@@ -124,17 +122,19 @@
 				</p>
 			</div>
 			<div class="social">
-				<ul class="social__list">
-					<li class="social__item">
-						<a href="#" class="social__link social__link--fb">Facebook</a>
-					</li>
-					<li class="social__item">
-						<a href="#" class="social__link social__link--vk">Vk</a>
-					</li>
-					<li class="social__item">
-						<a href="#" class="social__link social__link--tw">Twitter</a>
-					</li>
-				</ul>
+				
+					<ul class="social__list">
+						<li class="social__item">
+							<a href="#" class="social__link social__link--fb">Facebook</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link social__link--vk">Vk</a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link social__link--tw">Twitter</a>
+						</li>
+					</ul>
+					
 			</div>
 		</div>
 	</footer>

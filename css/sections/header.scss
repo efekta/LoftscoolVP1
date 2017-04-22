@@ -7,7 +7,7 @@
   	margin-bottom: 29px;
 }
 
-.head-author__about {
+.head-author__about, .head-author__contacts {
 	width: 50%;
 	float: left;
 }
@@ -32,43 +32,45 @@
 
 .head-author__contacts {
 	position: relative;
-	width: 50%;
-	float: right;
 	text-align: right;
 	font-weight: 600;
 
-		&::before {
-		content: "";
-		display: block;
-    	position: absolute;
-    	right: 0;
-    	bottom: 15px;
-    	width: 122px;
-    	height: 4px;
-    	background: url(../img/icons/spritesheet.png);
-    	background-position: -5px -5px;
-	}
-		&:hover::after {
-		content: "";
-		display: block;
-    	position: absolute;
-    	right: 0;
-    	bottom: 15px;
-    	width: 122px;
-    	height: 4px;
-    	background: url(../img/icons/spritesheet.png);
-    	background-position: -5px -124px;
-	}
+	// 	&::before { как правильнее псевдоэлементом или бордером
+	// 	content: "";
+	// 	display: block;
+ //    	position: absolute;
+ //    	right: 0;
+ //    	bottom: 15px;
+ //    	width: 122px;
+ //    	height: 4px;
+ //    	background: url(../img/icons/spritesheet.png);
+ //    	background-position: -5px -85px;
+	// }
+	// 	&:hover::after {
+	// 	content: "";
+	// 	display: block;
+ //    	position: absolute;
+ //    	right: 0;
+ //    	bottom: 15px;
+ //    	width: 122px;
+ //    	height: 4px;
+ // 	background: url(../img/icons/spritesheet.png);
+ //    	background-position: -5px -164px;
+	// }
 }
 .head-contacts__popup-list {
+	font-weight: 600;
 	text-decoration: none;
 	display: inline-block;
 	vertical-align: middle;
 	padding: 20px 0;
 	color: $blue;
+	padding-bottom: 5px;
+	background: url("../img/bg/head-bg-blue.png") 0 bottom repeat-x;
 
 		&:hover {
 		color: $red;
+		background: url("../img/bg/head-bg-red.png") 0 bottom repeat-x;
 	}
 }
 

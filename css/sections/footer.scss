@@ -1,0 +1,47 @@
+.page-foot__copiright, .social {
+	width: 50%;
+	float: left;
+}
+
+.page-foot__design {
+	padding-top: 8px;
+	font-size: 14px;
+	color: $copiright-color;
+}
+
+.social {
+	text-align: right;
+	padding-top: 12px;
+}
+
+.social__item {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 6px;
+}
+.social__link {
+	display: block;
+	width: 31px;
+	height: 30px;
+	font-size: 0;
+	background: url(../img/icons/spritesheet.png);
+}
+.social__link--fb {
+	background-position: -5px -5px;
+		&:hover {
+			background-position: -5px -99px;
+	}  
+}
+.social__link--vk {
+	background-position: -5px -271px;
+		&:hover {
+			background-position: -5px -311px;
+	}  
+}
+.social__link--tw {
+	background-position: -5px -45px;
+		&:hover {
+			background-position: -5px -231px;
+	}  
+}
+		

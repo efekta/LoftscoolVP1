@@ -1,32 +1,29 @@
 .content {
-	width: 700px;
+	width: 720px;
 	float: right;
 }
 
-.about-author {
-	width: 300px;
-	float: left;
-	margin-right: 20px;
-}
-
-.author {
-	width: 230px;
-	height: 230px;
-	border-radius: 50%;
-	border: 5px solid $white;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-.about-page {
-	width: 380px;
-	float: right;
-	margin-right: 0;
-}
 
 .page-title {
+	color: $black;
+	font-weight: 500;
 	font-size: 35px;
-	line-height: 45px;
-	margin: 0;
-	padding: 0;
+	margin-bottom: 30px;
+}
+.btn {
+	text-decoration: none;
+	padding: 7px 13px;
+	border: 2px solid $red;
+	border-radius: 30px;
+	font-size: 14px;
+	font-weight: 600;
+	color: $red;
+		&:hover {
+		color: $white;
+		background: $red;
+	}	
+}
+.btn__icon, .btn__title {
+	display: inline-block;
+	vertical-align: middle;
 }

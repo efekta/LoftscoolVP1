@@ -2,16 +2,17 @@
 	width: 50%;
 	float: left;
 }
-
+.page-foot__copyright {
+	padding-top: 5px;
+}
 .page-foot__design {
-	padding-top: 8px;
 	font-size: 14px;
 	color: $copiright-color;
 }
 
 .social {
 	text-align: right;
-	padding-top: 12px;
+	padding-top: 10px;
 }
 
 .social__item {

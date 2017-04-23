@@ -4,7 +4,7 @@
   	background: $white;
   	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
   	font-weight: 700;
-  	margin-bottom: 29px;
+  	margin-bottom: 20px;
 }
 
 .head-author__about, .head-author__contacts {
@@ -66,11 +66,11 @@
 	padding: 20px 0;
 	color: $blue;
 	padding-bottom: 5px;
-	background: url("../img/bg/head-bg-blue.png") 0 bottom repeat-x;
+	background: url("../img/bg/blue-bg-head.png") 0 bottom repeat-x;
 
 		&:hover {
 		color: $red;
-		background: url("../img/bg/head-bg-red.png") 0 bottom repeat-x;
+		background: url("../img/bg/red-bg-head.png") 0 bottom repeat-x;
 	}
 }
 

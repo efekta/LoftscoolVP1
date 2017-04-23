@@ -1,3 +1,119 @@
-.career {
-	margin-left: 20px;
+.career-author {
+	width: 220px;
+	float: left;
+}
+.wrap-pic {
+  display: inline-block;
+  text-align: center;
+  border-radius: 9px;
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+}
+.career-author__photo {
+	display: block;
+	max-height: 100%;
+	max-width: 100%;
+}
+// .career {
+// 	float: right;
+// 	width: 480px;
+// }
+.career-info {
+  	width: 455px;
+  	float: right;
+  	
+}
+.career-list {
+	text-align: right;
+}
+.career-list__item {
+	padding-left: 70px;
+}
+.career-list__info {
+	position: relative;
+  	text-align: left;
+  	border-radius: 10px;
+  	background-color: $white;
+  	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  	width: 380px;
+  	margin-bottom: 21px;
+  	padding: 20px;
+  	display: inline-block;
+  	cursor: pointer;
+}
+
+.career-list__item:hover .career-list__info {
+    background: $blue;
+}
+
+.career-list__item:hover .career-list__place-of-work,
+.career-list__item:hover .career-list__profession,
+.career-list__item:hover .career-list__date-of-work {
+	color: $white;		
+}
+.career-list__place-of-work {
+	font-size: 21px;
+	color: $career-title;
+	margin-bottom: 10px;
+}
+.career-list__profession, .career-list__date-of-work {
+	font-weight: 300;
+	font-size: 18px;
+	margin-bottom: 10px;
+	color: $gray;
+}
+.career-list__year {
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	margin-right: 35px;
+	font-size: 14px;
+	line-height: 28px;
+	color: $gray;
+	margin-top: -14px;
+}
+.career-list__year::before {
+		content: "";
+		display: block;
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		background: $blue;
+		position: absolute;
+		top: 50%;
+		right: -25px;
+		margin-top: -10px;
+		border: 5px solid $background;
+		z-index: 5;
+	}
+.career-list__item:hover .career-list__year {
+	font-weight: 600;
+	color: $blue;
+}
+.career-list__item:hover .career-list__year::before {
+	border-color: #94e0f2;
+}
+
+.career-list__info::before, .career-list__info::after {
+	content: "";
+	display: block;
+	width: 1px;
+	background: #ddd;
+	position: absolute;
+	right: 100%;
+	margin-right: 20px;
+}
+.career-list__item:first-child .career-list__info::before,
+.career-list__item:last-child .career-list__info::after {
+	display: none;
+}
+
+.career-list__info::before {
+	top: 0;
+	bottom: 50%;
+}
+.career-list__info::after {
+	top: 50%;
+	bottom: -25px;
 }

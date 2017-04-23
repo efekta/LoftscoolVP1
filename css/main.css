@@ -135,7 +135,7 @@ body, html { width: 100%; height: 100%; }
 
 body { margin: 0; background: #f6f6f6; font-size: 18px; font-weight: 400; line-height: 1.41; font-family: "fira", Arial, sans-serif; color: #646464; -webkit-font-smoothing: antialiased; }
 
-.container { width: 940px; margin: 0 auto; }
+.container { max-width: 940px; margin: 0 auto; }
 
 .wrapper { overflow: hidden; min-height: 100%; min-width: 960px; }
 
@@ -1592,15 +1592,13 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .sr-only-focusable:active, .sr-only-focusable:focus { position: static; width: auto; height: auto; margin: 0; overflow: visible; clip: auto; }
 
-.about-author, .about-page { float: left; }
+.about-author { float: left; width: 40%; }
 
-.about-author { width: 340px; text-align: center; }
-
-.author { display: inline-block; width: 230px; height: 230px; border-radius: 50%; border: 5px solid #ffffff; border-radius: 50%; overflow: hidden; }
+.author { display: inline-block; width: 220px; height: 220px; border-radius: 50%; border: 5px solid #ffffff; border-radius: 50%; overflow: hidden; text-align: center; }
 
 .author__photo { display: block; max-width: 100%; min-height: 100%; }
 
-.about-page { width: 380px; }
+.about-page { width: 60%; float: right; }
 
 .about-page__text { height: 300px; overflow: auto; margin-bottom: 38px; }
 
@@ -1612,9 +1610,45 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .author-download__title { margin-left: 8px; }
 
-.career { margin-left: 20px; }
+.career-author { width: 220px; float: left; }
 
-.content { width: 720px; float: right; }
+.wrap-pic { display: inline-block; text-align: center; border-radius: 9px; width: 220px; height: 220px; overflow: hidden; }
+
+.career-author__photo { display: block; max-height: 100%; max-width: 100%; }
+
+.career-info { width: 455px; float: right; }
+
+.career-list { text-align: right; }
+
+.career-list__item { padding-left: 70px; }
+
+.career-list__info { position: relative; text-align: left; border-radius: 10px; background-color: #ffffff; box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2); width: 380px; margin-bottom: 21px; padding: 20px; display: inline-block; cursor: pointer; }
+
+.career-list__item:hover .career-list__info { background: #32c3e5; }
+
+.career-list__item:hover .career-list__place-of-work, .career-list__item:hover .career-list__profession, .career-list__item:hover .career-list__date-of-work { color: #ffffff; }
+
+.career-list__place-of-work { font-size: 21px; color: #5a5a5a; margin-bottom: 10px; }
+
+.career-list__profession, .career-list__date-of-work { font-weight: 300; font-size: 18px; margin-bottom: 10px; color: #727272; }
+
+.career-list__year { position: absolute; top: 50%; right: 100%; margin-right: 35px; font-size: 14px; line-height: 28px; color: #727272; margin-top: -14px; }
+
+.career-list__year::before { content: ""; display: block; width: 10px; height: 10px; border-radius: 50%; background: #32c3e5; position: absolute; top: 50%; right: -25px; margin-top: -10px; border: 5px solid #f6f6f6; z-index: 5; }
+
+.career-list__item:hover .career-list__year { font-weight: 600; color: #32c3e5; }
+
+.career-list__item:hover .career-list__year::before { border-color: #94e0f2; }
+
+.career-list__info::before, .career-list__info::after { content: ""; display: block; width: 1px; background: #ddd; position: absolute; right: 100%; margin-right: 20px; }
+
+.career-list__item:first-child .career-list__info::before, .career-list__item:last-child .career-list__info::after { display: none; }
+
+.career-list__info::before { top: 0; bottom: 50%; }
+
+.career-list__info::after { top: 50%; bottom: -25px; }
+
+.content { width: 73%; float: right; margin-left: 2%; }
 
 .page-title { color: #414141; font-weight: 500; font-size: 35px; margin-bottom: 30px; }
 
@@ -1624,7 +1658,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .btn__icon, .btn__title { display: inline-block; vertical-align: middle; }
 
-.page-head { min-height: 79px; padding: 10px 0; background: #ffffff; box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2); font-weight: 700; margin-bottom: 29px; }
+.page-head { min-height: 79px; padding: 10px 0; background: #ffffff; box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2); font-weight: 700; margin-bottom: 20px; }
 
 .head-author__about, .head-author__contacts { width: 50%; float: left; }
 
@@ -1634,17 +1668,19 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .head-author__contacts { position: relative; text-align: right; font-weight: 600; }
 
-.head-contacts__popup-list { font-weight: 600; text-decoration: none; display: inline-block; vertical-align: middle; padding: 20px 0; color: #32c3e5; padding-bottom: 5px; background: url("../img/bg/head-bg-blue.png") 0 bottom repeat-x; }
+.head-contacts__popup-list { font-weight: 600; text-decoration: none; display: inline-block; vertical-align: middle; padding: 20px 0; color: #32c3e5; padding-bottom: 5px; background: url("../img/bg/blue-bg-head.png") 0 bottom repeat-x; }
 
-.head-contacts__popup-list:hover { color: #e85f61; background: url("../img/bg/head-bg-red.png") 0 bottom repeat-x; }
+.head-contacts__popup-list:hover { color: #e85f61; background: url("../img/bg/red-bg-head.png") 0 bottom repeat-x; }
 
 .head-contacts__list { display: none; }
 
 .page-foot__copiright, .social { width: 50%; float: left; }
 
-.page-foot__design { padding-top: 8px; font-size: 14px; color: #9c9c9c; }
+.page-foot__copyright { padding-top: 5px; }
 
-.social { text-align: right; padding-top: 12px; }
+.page-foot__design { font-size: 14px; color: #9c9c9c; }
+
+.social { text-align: right; padding-top: 10px; }
 
 .social__item { display: inline-block; vertical-align: middle; margin-left: 6px; }
 
@@ -1662,7 +1698,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .social__link--tw:hover { background-position: -5px -231px; }
 
-.page-sidebar { width: 220px; float: left; }
+.page-sidebar { width: 25%; float: left; }
 
 .page-sidebar__list { text-align: right; }
 

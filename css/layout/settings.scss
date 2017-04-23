@@ -16,15 +16,12 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-.container {
+.container, .about, .work-list {
 	max-width: $container-width;
 	margin: 0 auto;
 	@extend %clearfix;
 }
 
-.about {
-	@extend %clearfix;
-}
 .wrapper {
 	overflow: hidden;
 	min-height: 100%;

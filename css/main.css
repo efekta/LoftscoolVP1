@@ -1708,7 +1708,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .work-list__title { color: #32c3e5; font-size: 21px; margin-bottom: 5px; }
 
-.work-list__prev { font-size: 14px; color: #414141; margin-bottom: 15px; }
+.work-list__desc { font-size: 14px; color: #414141; margin-bottom: 15px; }
 
 .work-list__app_icon, .work-list__app_title { display: inline-block; vertical-align: middle; }
 

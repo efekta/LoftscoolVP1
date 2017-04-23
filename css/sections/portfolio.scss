@@ -1,0 +1,49 @@
+.work-list__item {
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+  width: 220px;
+  overflow: hidden;
+}
+
+.work-list__link {
+	display: block;
+	text-decoration: none;
+}
+
+.work-list__pic {
+	display: block;
+	max-width: 100%;
+}
+.work-description {
+	padding: 20px;
+
+}
+.work-list__title {
+	color: $blue;
+	font-size: 21px;
+	margin-bottom: 5px;
+}
+
+.work-list__prev {
+	font-size: 14px;
+	color: $black;
+	margin-bottom: 15px;
+}
+
+.work-list__app_icon, .work-list__app_title {
+	display: inline-block;
+	vertical-align: middle;
+} 
+.work-list__app {
+	color: #aeaeae;
+	font-size: 14px;
+	color: #aeaeae;	
+}
+.work-list__app_icon {
+	font-size: 18px;
+}
+.work-list__app_title {
+	margin-left: 5px;
+	max-width: 160px;
+}

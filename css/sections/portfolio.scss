@@ -1,5 +1,12 @@
+.potrfolio { //неуверенна что это правильно, ведь я использовать старалась с %, но тут они не раб.// не срабатывает как надо
+	width: 700px;
+}
 .work-list {
 	margin-left: -20px;
+	font-size: 0;
+}
+.work-list * {
+	font-size: 14px;
 }
 
 .work-list__item {
@@ -8,17 +15,18 @@
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
   width: 220px;
   overflow: hidden;
-  float: left;
+  display: inline-block;
+  vertical-align: top;
   margin: 0 0 20px 20px;
 
 }
-
-
 .work-list__link {
 	display: block;
 	text-decoration: none;
 }
-
+.work-list__link:hover .work-list__title {
+	color: $red;
+}
 .work-list__pic {
 	display: block;
 	max-width: 100%;
@@ -52,6 +60,6 @@
 	font-size: 18px;
 }
 .work-list__app_title {
-	margin-left: 5px;
-	max-width: 170px;
+	margin-left: 5px;// не срабатывает как надо
+	max-width: 170px;// не срабатывает как надо
 }

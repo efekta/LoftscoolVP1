@@ -1,6 +1,6 @@
 .page-head {
 	min-height: 79px;
-	padding: 10px 0;
+	padding: 9px 0;
   	background: $white;
   	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
   	font-weight: 700;
@@ -15,8 +15,8 @@
 .wrap-author {
 	display: inline-block;
 	vertical-align: middle;
-	width: 63px;
-	height: 63px;
+	width: 60px;
+	height: 60px;
   	border-radius: 50%;
   	border: 1px solid $gray;
   	overflow: hidden;
@@ -24,7 +24,7 @@
 
 .head-author__name {
 	max-width: 235px;
-	margin-left: 20px;
+	margin-left: 15px;
 	display: inline-block;
 	vertical-align: middle;
 	font-weight: 500;
@@ -66,7 +66,7 @@
 	vertical-align: middle;
 	padding: 20px 0;
 	color: $blue;
-	padding-bottom: 5px;
+	padding-bottom: 2px;
 	background: url("../img/bg/blue-bg-head.png") 0 bottom repeat-x;
 
 		&:hover {
@@ -76,15 +76,15 @@
 }
 
 .popup-contacts {
-	display: none;
+	display: block;
 	position: absolute;
-	top: 65px;
+	top: 60px;
 	left: 60%;
-	width: 240px;
+	width: 270px;
 	background: $white;
 	border: 1px solid #dedede;
 	border-radius: 9px;
-	text-align: right;
+	z-index: 2;
 	&::before {
 		content: "";
 		display: block;
@@ -97,16 +97,18 @@
 		top: -10px;
 		left: 50%;
 		transform: translateX(-50%) rotate(45deg);
-		z-index: 2;// -1 не работает, треугольник не отображается
+		z-index: -1;// -1 не работает, треугольник не отображается
 	}
 }
-.head-contacts__popup-list:hover
+.head-author__contacts:hover
 .popup-contacts {
 	display: block;
 }
 .popup-contacts__item {
+	position: relative;
 	padding: 15px 20px;
 	border-bottom: 1px solid #dedede;
+	background: url("../img/icons/spritesheet.png") no-repeat;
 }
 .popup-contacts__item:last-child {
 	border-bottom: none;
@@ -117,4 +119,30 @@
 	color: $black;
 	font-weight: 300;
 	font-size: 18px;
+}
+.popup-contacts__icon_mail {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 19px;
+    height: 15px;
+	background-position: -5px -140px;
+}
+
+.popup-contacts__icon_tel {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 15px;
+    height: 16px;
+	background-position: -5px -207px;
+}
+
+.popup-contacts__icon_skype {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 16px;
+    height: 17px;
+	background-position: -5px -180px;
 }

@@ -2,6 +2,7 @@
 .about-author {
 	float: left;
 	width: 40%;
+	text-align: center;
 }
 
 .author {
@@ -12,7 +13,6 @@
 	border: 5px solid $white;
     border-radius: 50%;
     overflow: hidden;
-    text-align: center;
 }
 
 .author__photo {

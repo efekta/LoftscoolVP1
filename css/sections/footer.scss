@@ -27,19 +27,19 @@
 	font-size: 0;
 	background: url(../img/icons/spritesheet.png);
 }
-.social__link--fb {
+.social__link_fb {
 	background-position: -5px -5px;
 		&:hover {
 			background-position: -5px -99px;
 	}  
 }
-.social__link--vk {
+.social__link_vk {
 	background-position: -5px -271px;
 		&:hover {
 			background-position: -5px -311px;
 	}  
 }
-.social__link--tw {
+.social__link_tw {
 	background-position: -5px -45px;
 		&:hover {
 			background-position: -5px -231px;

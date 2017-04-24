@@ -76,11 +76,11 @@
 }
 
 .popup-contacts {
-	display: block;
+	display: none;
 	position: absolute;
 	top: 60px;
 	left: 60%;
-	width: 270px;
+	width: 230px;
 	background: $white;
 	border: 1px solid #dedede;
 	border-radius: 9px;
@@ -105,44 +105,44 @@
 	display: block;
 }
 .popup-contacts__item {
-	position: relative;
 	padding: 15px 20px;
 	border-bottom: 1px solid #dedede;
-	background: url("../img/icons/spritesheet.png") no-repeat;
 }
 .popup-contacts__item:last-child {
 	border-bottom: none;
 }
 .popup-contacts__link {
+	// position: relative;
 	display: block;
 	text-decoration: none;
 	color: $black;
 	font-weight: 300;
 	font-size: 18px;
+	background: url("../img/icons/spritesheet.png") no-repeat;
 }
 .popup-contacts__icon_mail {
-	position: absolute;
-	top: 50%;
-	left: 0;
-	width: 19px;
-    height: 15px;
-	background-position: -5px -140px;
+	// position: absolute;
+	// top: 50%;
+	// left: 0;
+	// width: 19px;
+ //    height: 15px;
+	background-position: -5px -139px;
 }
 
 .popup-contacts__icon_tel {
-	position: absolute;
-	top: 50%;
-	left: 0;
-	width: 15px;
-    height: 16px;
-	background-position: -5px -207px;
+	// position: absolute;
+	// top: 50%;
+	// left: 0;
+	// width: 15px;
+ //    height: 16px;
+	background-position: -5px -205px;
 }
 
 .popup-contacts__icon_skype {
-	position: absolute;
-	top: 50%;
-	left: 0;
-	width: 16px;
-    height: 17px;
-	background-position: -5px -180px;
+	// position: absolute;
+	// top: 50%;
+	// left: 0;
+	// width: 16px;
+ //    height: 17px;
+	background-position: -5px -178px;
 }

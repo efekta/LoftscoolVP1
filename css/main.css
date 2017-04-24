@@ -1672,23 +1672,23 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .head-contacts__popup-list:hover { color: #e85f61; background: url("../img/bg/red-bg-head.png") 0 bottom repeat-x; }
 
-.popup-contacts { display: block; position: absolute; top: 60px; left: 60%; width: 270px; background: #ffffff; border: 1px solid #dedede; border-radius: 9px; z-index: 2; }
+.popup-contacts { display: none; position: absolute; top: 60px; left: 60%; width: 230px; background: #ffffff; border: 1px solid #dedede; border-radius: 9px; z-index: 2; }
 
 .popup-contacts::before { content: ""; display: block; position: absolute; width: 17px; height: 17px; background: #ffffff; border-top: 1px solid #dedede; border-left: 1px solid #dedede; top: -10px; left: 50%; -webkit-transform: translateX(-50%) rotate(45deg); -ms-transform: translateX(-50%) rotate(45deg); transform: translateX(-50%) rotate(45deg); z-index: -1; }
 
 .head-author__contacts:hover .popup-contacts { display: block; }
 
-.popup-contacts__item { position: relative; padding: 15px 20px; border-bottom: 1px solid #dedede; background: url("../img/icons/spritesheet.png") no-repeat; }
+.popup-contacts__item { padding: 15px 20px; border-bottom: 1px solid #dedede; }
 
 .popup-contacts__item:last-child { border-bottom: none; }
 
-.popup-contacts__link { display: block; text-decoration: none; color: #414141; font-weight: 300; font-size: 18px; }
+.popup-contacts__link { display: block; text-decoration: none; color: #414141; font-weight: 300; font-size: 18px; background: url("../img/icons/spritesheet.png") no-repeat; }
 
-.popup-contacts__icon_mail { position: absolute; top: 50%; left: 0; width: 19px; height: 15px; background-position: -5px -140px; }
+.popup-contacts__icon_mail { background-position: -5px -139px; }
 
-.popup-contacts__icon_tel { position: absolute; top: 50%; left: 0; width: 15px; height: 16px; background-position: -5px -207px; }
+.popup-contacts__icon_tel { background-position: -5px -205px; }
 
-.popup-contacts__icon_skype { position: absolute; top: 50%; left: 0; width: 16px; height: 17px; background-position: -5px -180px; }
+.popup-contacts__icon_skype { background-position: -5px -178px; }
 
 .page-foot__copiright, .social { width: 50%; float: left; }
 

@@ -1,5 +1,5 @@
 .page-sidebar {
-	width: 25%;
+	width: 220px;
 	float: left;
 }
 
@@ -9,14 +9,14 @@
 
 .page-sidebar__item {
 	position: relative;
-	margin-bottom: 30px;
-	padding: 10px 0;
+	// margin-bottom: 30px;
+	padding: 9px 0;
 }
 
 
 .page-sidebar__link {
 	border-right: 6px solid transparent;
-	padding: 10px 25px 10px 0;
+	padding: 10px 20px 3px 0;
 	text-decoration: none;
 	color: $black;
 	font-weight: 400;
@@ -41,5 +41,9 @@
 // 	height: 100%
 // }
 .page-sidebar__link-title {
-	padding: 0 0 0 12px;
+	padding: 0 0 0 5px;
 }
+// .page-sidebar__icon {
+// 	display: inline-block;
+// 	vertical-align: middle;
+// }

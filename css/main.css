@@ -1592,13 +1592,13 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .sr-only-focusable:active, .sr-only-focusable:focus { position: static; width: auto; height: auto; margin: 0; overflow: visible; clip: auto; }
 
-.about-author { float: left; width: 40%; text-align: center; }
+.about-author { float: left; width: 220px; text-align: center; }
 
 .author { display: inline-block; width: 220px; height: 220px; border-radius: 50%; border: 5px solid #ffffff; border-radius: 50%; overflow: hidden; }
 
 .author__photo { display: block; max-width: 100%; min-height: 100%; }
 
-.about-page { width: 60%; float: right; }
+.about-page { width: 380px; float: right; }
 
 .about-page__text { height: 300px; overflow: auto; margin-bottom: 38px; }
 
@@ -1658,7 +1658,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .btn__icon, .btn__title { display: inline-block; vertical-align: middle; }
 
-.page-head { min-height: 79px; padding: 9px 0; background: #ffffff; box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2); font-weight: 700; margin-bottom: 20px; }
+.page-head { min-height: 79px; padding: 10px 0; background: #ffffff; box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2); font-weight: 700; margin-bottom: 30px; }
 
 .head-author__about, .head-author__contacts { width: 50%; float: left; }
 
@@ -1672,7 +1672,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .head-contacts__popup-list:hover { color: #e85f61; background: url("../img/bg/red-bg-head.png") 0 bottom repeat-x; }
 
-.popup-contacts { display: none; position: absolute; top: 60px; left: 60%; width: 230px; background: #ffffff; border: 1px solid #dedede; border-radius: 9px; z-index: 2; }
+.popup-contacts { display: none; position: absolute; top: 60px; left: 60%; width: 230px; background: #ffffff; border: 1px solid #dedede; border-radius: 9px; text-align: left; z-index: 2; }
 
 .popup-contacts::before { content: ""; display: block; position: absolute; width: 17px; height: 17px; background: #ffffff; border-top: 1px solid #dedede; border-left: 1px solid #dedede; top: -10px; left: 50%; -webkit-transform: translateX(-50%) rotate(45deg); -ms-transform: translateX(-50%) rotate(45deg); transform: translateX(-50%) rotate(45deg); z-index: -1; }
 
@@ -1682,13 +1682,13 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .popup-contacts__item:last-child { border-bottom: none; }
 
-.popup-contacts__link { display: block; text-decoration: none; color: #414141; font-weight: 300; font-size: 18px; background: url("../img/icons/spritesheet.png") no-repeat; }
+.popup-contacts__link { display: block; text-decoration: none; color: #414141; font-weight: 300; font-size: 18px; padding-left: 25px; background: url("../img/icons/spritesheet.png") no-repeat; }
 
-.popup-contacts__icon_mail { background-position: -5px -139px; }
+.popup-contacts__icon_mail { background-position: -5px -135px; }
 
-.popup-contacts__icon_tel { background-position: -5px -205px; }
+.popup-contacts__icon_tel { background-position: -3px -202px; }
 
-.popup-contacts__icon_skype { background-position: -5px -178px; }
+.popup-contacts__icon_skype { background-position: -5px -175px; }
 
 .page-foot__copiright, .social { width: 50%; float: left; }
 
@@ -1742,19 +1742,19 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .work-list__app_title { margin-left: 5px; max-width: 170px; }
 
-.page-sidebar { width: 25%; float: left; }
+.page-sidebar { width: 220px; float: left; }
 
 .page-sidebar__list { text-align: right; }
 
-.page-sidebar__item { position: relative; margin-bottom: 30px; padding: 10px 0; }
+.page-sidebar__item { position: relative; padding: 9px 0; }
 
-.page-sidebar__link { border-right: 6px solid transparent; padding: 10px 25px 10px 0; text-decoration: none; color: #414141; font-weight: 400; }
+.page-sidebar__link { border-right: 6px solid transparent; padding: 10px 20px 3px 0; text-decoration: none; color: #414141; font-weight: 400; }
 
 .page-sidebar__link:hover { color: #32c3e5; }
 
 .page-sidebar__item_selected .page-sidebar__link { border-color: #32c3e5; font-weight: 600; color: #32c3e5; }
 
-.page-sidebar__link-title { padding: 0 0 0 12px; }
+.page-sidebar__link-title { padding: 0 0 0 5px; }
 
 .container:after, .about:after, .work-list:after { content: ""; display: block; clear: both; }
 

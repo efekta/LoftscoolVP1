@@ -85,7 +85,7 @@
 	border: 1px solid #dedede;
 	border-radius: 9px;
 	z-index: 2;
-	&::before {
+	    &::before {
 		content: "";
 		display: block;
 		position: absolute;

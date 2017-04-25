@@ -1596,7 +1596,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .author { overflow: hidden; display: inline-block; text-align: center; border-radius: 50%; border: 5px solid #ffffff; width: 220px; height: 220px; overflow: hidden; }
 
-.author__photo { display: block; height: auto; max-width: 100%; }
+.author__photo { display: block; max-width: 220px; max-height: 220px; }
 
 .about-page { width: 380px; float: right; }
 
@@ -1660,7 +1660,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .btn__icon, .btn__title { display: inline-block; vertical-align: middle; }
 
-.page-head { min-height: 79px; padding: 10px 0; background: #ffffff; box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2); font-weight: 700; margin-bottom: 26px; }
+.page-head { min-height: 79px; padding: 10px 0; background: #ffffff; box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2); font-weight: 700; margin-bottom: 25px; }
 
 .head-author__about, .head-author__contacts { width: 50%; float: left; }
 
@@ -1752,7 +1752,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .page-sidebar__item { position: relative; padding: 10px 0; }
 
-.page-sidebar__link { border-right: 6px solid transparent; padding: 10px 21px 6px 0; text-decoration: none; color: #414141; font-weight: 400; }
+.page-sidebar__link { border-right: 6px solid transparent; text-decoration: none; color: #414141; font-weight: 400; padding: 7px 25px 9px 0; line-height: 1.2; }
 
 .page-sidebar__link:hover { color: #32c3e5; }
 

@@ -1596,11 +1596,13 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .author { display: inline-block; width: 220px; height: 220px; border-radius: 50%; border: 5px solid #ffffff; border-radius: 50%; overflow: hidden; }
 
-.author__photo { display: block; max-width: 100%; min-height: 100%; }
+.author__photo { display: block; max-width: 100%; height: auto; }
 
 .about-page { width: 380px; float: right; }
 
-.about-page__text { height: 300px; overflow: auto; margin-bottom: 38px; }
+.page-title--about { margin-bottom: -7px; }
+
+.about-page__text { height: 300px; overflow: auto; margin-bottom: 103px; }
 
 .about-page__text-block { font-weight: 300; color: #646464; }
 
@@ -1648,17 +1650,17 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .career-list__info::after { top: 50%; bottom: -25px; }
 
-.content { width: 73%; float: right; margin-left: 2%; }
+.content { width: 70%; float: right; margin-left: 20px; }
 
 .page-title { color: #414141; font-weight: 500; font-size: 35px; margin-bottom: 30px; }
 
-.btn { text-decoration: none; padding: 7px 13px; border: 2px solid #e85f61; border-radius: 30px; font-size: 14px; font-weight: 600; color: #e85f61; }
+.btn { text-decoration: none; padding: 7px 21px; border: 2px solid #e85f61; border-radius: 30px; font-size: 14px; font-weight: 600; color: #e85f61; }
 
 .btn:hover { color: #ffffff; background: #e85f61; }
 
 .btn__icon, .btn__title { display: inline-block; vertical-align: middle; }
 
-.page-head { min-height: 79px; padding: 10px 0; background: #ffffff; box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2); font-weight: 700; margin-bottom: 30px; }
+.page-head { min-height: 79px; padding: 10px 0; background: #ffffff; box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2); font-weight: 700; margin-bottom: 21px; }
 
 .head-author__about, .head-author__contacts { width: 50%; float: left; }
 
@@ -1746,9 +1748,9 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .page-sidebar__list { text-align: right; }
 
-.page-sidebar__item { position: relative; padding: 9px 0; }
+.page-sidebar__item { position: relative; padding: 11px 0; }
 
-.page-sidebar__link { border-right: 6px solid transparent; padding: 10px 20px 3px 0; text-decoration: none; color: #414141; font-weight: 400; }
+.page-sidebar__link { border-right: 6px solid transparent; padding: 5px 20px 12px 0; text-decoration: none; color: #414141; font-weight: 400; }
 
 .page-sidebar__link:hover { color: #32c3e5; }
 

@@ -18,17 +18,19 @@
 .author__photo {
 	display: block;
 	max-width: 100%;
-	min-height: 100%;
+    height: auto;
 }
 .about-page {
 	width: 380px;
 	float: right;
 }
-
+.page-title--about {
+	margin-bottom: -7px;
+}
 .about-page__text {
 	height: 300px;
 	overflow: auto;
-	margin-bottom: 38px;
+	margin-bottom: 103px;
 }
 .about-page__text-block {
 	font-weight: 300;

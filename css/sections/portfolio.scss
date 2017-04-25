@@ -1,8 +1,11 @@
-.potrfolio { //неуверенна что это правильно, ведь я использовать старалась с %, но тут они не раб.// не срабатывает как надо
+.page-title .page-title--portfolio {
+	margin-bottom: 15px;
+}
+.potrfolio {
 	width: 700px;
 }
 .work-list {
-	margin-left: -20px;
+	// margin-left: -20px;
 	font-size: 0;
 }
 .work-list * {
@@ -32,19 +35,19 @@
 	max-width: 100%;
 }
 .work-description {
-	padding: 20px;
+	padding: 17px;
 
 }
 .work-list__title {
 	color: $blue;
 	font-size: 21px;
-	margin-bottom: 5px;
+	margin-bottom: -2px;
 }
 
 .work-list__desc {
 	font-size: 14px;
 	color: $black;
-	margin-bottom: 15px;
+	margin-bottom: 12px;
 }
 
 .work-list__app_icon, .work-list__app_title {
@@ -60,6 +63,6 @@
 	font-size: 18px;
 }
 .work-list__app_title {
-	margin-left: 5px;// не срабатывает как надо
+	margin-left: 6px;// не срабатывает как надо
 	max-width: 170px;// не срабатывает как надо
 }

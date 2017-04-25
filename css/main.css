@@ -1592,21 +1592,21 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .sr-only-focusable:active, .sr-only-focusable:focus { position: static; width: auto; height: auto; margin: 0; overflow: visible; clip: auto; }
 
-.about-author { float: left; width: 220px; text-align: center; }
+.about-author { float: left; width: 240px; text-align: center; }
 
-.author { display: inline-block; width: 220px; height: 220px; border-radius: 50%; border: 5px solid #ffffff; border-radius: 50%; overflow: hidden; }
+.author { overflow: hidden; display: inline-block; text-align: center; border-radius: 50%; border: 5px solid #ffffff; width: 220px; height: 220px; overflow: hidden; }
 
-.author__photo { display: block; max-width: 100%; height: auto; }
+.author__photo { display: block; height: auto; max-width: 100%; }
 
 .about-page { width: 380px; float: right; }
 
-.page-title--about { margin-bottom: -7px; }
+.page-title .page-title--about { margin-bottom: -7px; }
 
 .about-page__text { height: 300px; overflow: auto; margin-bottom: 103px; }
 
 .about-page__text-block { font-weight: 300; color: #646464; }
 
-.about-page__text-block { margin-top: 0; margin-bottom: 35px; }
+.about-page__text-block { margin-top: 0; margin-bottom: 103px; }
 
 .author-download { text-align: right; }
 
@@ -1624,15 +1624,15 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .career-list__item { padding-left: 70px; }
 
-.career-list__info { position: relative; text-align: left; border-radius: 10px; background-color: #ffffff; box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2); width: 380px; margin-bottom: 21px; padding: 20px; display: inline-block; cursor: pointer; }
+.career-list__info { position: relative; text-align: left; border-radius: 10px; background-color: #ffffff; box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2); width: 380px; margin-bottom: 21px; padding: 15px 20px; display: inline-block; cursor: pointer; }
 
 .career-list__item:hover .career-list__info { background: #32c3e5; }
 
 .career-list__item:hover .career-list__place-of-work, .career-list__item:hover .career-list__profession, .career-list__item:hover .career-list__date-of-work { color: #ffffff; }
 
-.career-list__place-of-work { font-size: 21px; color: #5a5a5a; margin-bottom: 10px; }
+.career-list__place-of-work { font-size: 21px; color: #5a5a5a; }
 
-.career-list__profession, .career-list__date-of-work { font-weight: 300; font-size: 18px; margin-bottom: 10px; color: #727272; }
+.career-list__profession, .career-list__date-of-work { font-weight: 300; font-size: 18px; color: #727272; }
 
 .career-list__year { position: absolute; top: 50%; right: 100%; margin-right: 35px; font-size: 14px; line-height: 28px; color: #727272; margin-top: -14px; }
 
@@ -1650,11 +1650,13 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .career-list__info::after { top: 50%; bottom: -25px; }
 
-.content { width: 70%; float: right; margin-left: 20px; }
+.page-title .page-title--career { margin-bottom: 18px; }
 
-.page-title { color: #414141; font-weight: 500; font-size: 35px; margin-bottom: 30px; }
+.content { width: 700px; float: right; margin-left: 20px; }
 
-.btn { text-decoration: none; padding: 7px 21px; border: 2px solid #e85f61; border-radius: 30px; font-size: 14px; font-weight: 600; color: #e85f61; }
+.page-title { color: #414141; font-weight: 500; font-size: 35px; }
+
+.btn { text-decoration: none; padding: 7px 22px; border: 2px solid #e85f61; border-radius: 30px; font-size: 14px; font-weight: 600; color: #e85f61; }
 
 .btn:hover { color: #ffffff; background: #e85f61; }
 
@@ -1716,9 +1718,11 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .social__link_tw:hover { background-position: -5px -231px; }
 
+.page-title .page-title--portfolio { margin-bottom: 15px; }
+
 .potrfolio { width: 700px; }
 
-.work-list { margin-left: -20px; font-size: 0; }
+.work-list { font-size: 0; }
 
 .work-list * { font-size: 14px; }
 
@@ -1730,11 +1734,11 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .work-list__pic { display: block; max-width: 100%; }
 
-.work-description { padding: 20px; }
+.work-description { padding: 17px; }
 
-.work-list__title { color: #32c3e5; font-size: 21px; margin-bottom: 5px; }
+.work-list__title { color: #32c3e5; font-size: 21px; margin-bottom: -2px; }
 
-.work-list__desc { font-size: 14px; color: #414141; margin-bottom: 15px; }
+.work-list__desc { font-size: 14px; color: #414141; margin-bottom: 12px; }
 
 .work-list__app_icon, .work-list__app_title { display: inline-block; vertical-align: middle; }
 
@@ -1742,15 +1746,15 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .work-list__app_icon { font-size: 18px; }
 
-.work-list__app_title { margin-left: 5px; max-width: 170px; }
+.work-list__app_title { margin-left: 6px; max-width: 170px; }
 
 .page-sidebar { width: 220px; float: left; }
 
 .page-sidebar__list { text-align: right; }
 
-.page-sidebar__item { position: relative; padding: 11px 0; }
+.page-sidebar__item { position: relative; padding: 10px 0; }
 
-.page-sidebar__link { border-right: 6px solid transparent; padding: 5px 20px 12px 0; text-decoration: none; color: #414141; font-weight: 400; }
+.page-sidebar__link { border-right: 6px solid transparent; padding: 6px 23px 11px 0; text-decoration: none; color: #414141; font-weight: 400; }
 
 .page-sidebar__link:hover { color: #32c3e5; }
 

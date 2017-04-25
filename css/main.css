@@ -1602,11 +1602,9 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .page-title .page-title--about { margin-bottom: -7px; }
 
-.about-page__text { height: 300px; overflow: auto; margin-bottom: 103px; }
+.about-page__text { height: 300px; overflow: auto; margin-bottom: 92px; }
 
-.about-page__text-block { font-weight: 300; color: #646464; }
-
-.about-page__text-block { margin-top: 0; margin-bottom: 103px; }
+.about-page__text-block { font-weight: 300; color: #646464; margin-top: 0; }
 
 .author-download { text-align: right; }
 
@@ -1718,7 +1716,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .social__link_tw:hover { background-position: -5px -231px; }
 
-.page-title .page-title--portfolio { margin-bottom: 12px; }
+.page-title .page-title--portfolio { margin-bottom: 15px; }
 
 .potrfolio { width: 700px; }
 

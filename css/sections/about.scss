@@ -30,15 +30,13 @@
 .about-page__text {
 	height: 317px;
     overflow-y: auto;
-}
-.about-page__text-block {
 	font-weight: 300;
-	color: $liteblack;
-	margin-top: 0;
+	color: $liteblack; 
+	margin-bottom: 55px;   
 }
 
+
 .author-download {
-	margin-top: 83px;
 	text-align: right;
 }
 .btn__title {

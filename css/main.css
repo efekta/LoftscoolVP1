@@ -1592,29 +1592,31 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .sr-only-focusable:active, .sr-only-focusable:focus { position: static; width: auto; height: auto; margin: 0; overflow: visible; clip: auto; }
 
-.about-author { float: left; width: 300px; text-align: center; }
+.about-author { float: left; width: 296px; text-align: center; }
 
-.author { overflow: hidden; display: inline-block; text-align: center; border-radius: 50%; border: 5px solid #ffffff; width: 220px; height: 220px; overflow: hidden; }
+.author { overflow: hidden; display: inline-block; border-radius: 50%; border: 5px solid #ffffff; width: 230px; height: 230px; overflow: hidden; }
 
-.author__photo { display: block; max-width: 220px; max-height: 220px; }
+.author__photo { display: block; max-width: 230px; max-height: 230px; }
 
-.about-page { width: 380px; float: right; }
+.about-page { width: 382px; float: right; }
 
 .page-title .page-title--about { margin-bottom: -7px; }
 
-.about-page__text { height: 300px; overflow: auto; margin-bottom: 92px; }
+.about-page__text { height: 317px; overflow-y: auto; }
 
 .about-page__text-block { font-weight: 300; color: #646464; margin-top: 0; }
 
-.author-download { text-align: right; }
+.author-download { margin-top: 83px; text-align: right; }
 
-.author-download__title { margin-left: 8px; }
+.btn__title { margin-left: 10px; }
+
+.page-title--career { margin-bottom: 22px; }
 
 .career-author { width: 220px; float: left; }
 
 .wrap-pic { display: inline-block; text-align: center; border-radius: 9px; width: 220px; height: 220px; overflow: hidden; }
 
-.career-author__photo { display: block; max-height: 100%; max-width: 100%; }
+.career-author__photo { display: block; max-width: 220px; max-height: 220px; }
 
 .career-info { width: 455px; float: right; }
 
@@ -1648,25 +1650,23 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .career-list__info::after { top: 50%; bottom: -25px; }
 
-.page-title .page-title--career { margin-bottom: 18px; }
-
 .content { width: 700px; float: right; margin-left: 20px; }
 
-.page-title { color: #414141; font-weight: 500; font-size: 35px; }
+.page-title { color: #414141; font-weight: 500; font-size: 35px; line-height: 1.2; }
 
-.btn { text-decoration: none; padding: 7px 22px; border: 2px solid #e85f61; border-radius: 30px; font-size: 14px; font-weight: 600; color: #e85f61; }
+.btn { text-decoration: none; padding: 7px 17px; border: 2px solid #e85f61; border-radius: 30px; font-size: 14px; font-weight: 600; color: #e85f61; }
 
 .btn:hover { color: #ffffff; background: #e85f61; }
 
 .btn__icon, .btn__title { display: inline-block; vertical-align: middle; }
 
-.page-head { min-height: 79px; padding: 10px 0; background: #ffffff; box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2); font-weight: 700; margin-bottom: 25px; }
+.page-head { padding: 10px 0; background: #ffffff; box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2); font-weight: 700; margin-bottom: 25px; }
 
 .head-author__about, .head-author__contacts { width: 50%; float: left; }
 
 .wrap-author { display: inline-block; vertical-align: middle; width: 60px; height: 60px; border-radius: 50%; border: 1px solid #727272; overflow: hidden; }
 
-.head-author__name { max-width: 235px; margin-left: 15px; display: inline-block; vertical-align: middle; font-weight: 500; }
+.head-author__name { max-width: 235px; margin-left: 15px; display: inline-block; vertical-align: middle; font-weight: 400; font-size: 20px; }
 
 .head-author__contacts { position: relative; text-align: right; font-weight: 600; }
 
@@ -1724,7 +1724,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .work-list * { font-size: 14px; }
 
-.work-list__item { border-radius: 10px; background-color: white; box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2); width: 220px; overflow: hidden; display: inline-block; vertical-align: top; margin: 10px 0 10px 20px; }
+.work-list__item { border-radius: 10px; background-color: white; box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2); width: 220px; overflow: hidden; display: inline-block; vertical-align: top; margin: 18px 0 0px 20px; }
 
 .work-list__link { display: block; text-decoration: none; }
 
@@ -1736,7 +1736,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .work-list__title { color: #32c3e5; font-size: 21px; margin-bottom: -2px; }
 
-.work-list__desc { font-size: 14px; color: #414141; margin-bottom: 12px; }
+.work-list__desc { font-size: 14px; color: #414141; margin-bottom: 10px; }
 
 .work-list__app_icon, .work-list__app_title { display: inline-block; vertical-align: middle; }
 
@@ -1759,6 +1759,10 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 .page-sidebar__item_selected .page-sidebar__link { border-color: #32c3e5; font-weight: 600; color: #32c3e5; }
 
 .page-sidebar__link-title { padding: 0 0 0 5px; }
+
+.hello-bg { background: #f6f6f6 url("../img/bg/bg.jpg"); }
+
+.page-hello { width: 300px; height: 232px; }
 
 .container:after, .about:after, .work-list:after { content: ""; display: block; clear: both; }
 

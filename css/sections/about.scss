@@ -1,37 +1,35 @@
 
 .about-author {
 	float: left;
-	width: 300px;
+	width: 296px;
 	text-align: center;
 }
 
 .author {
     overflow: hidden;
 	display: inline-block;
-    text-align: center;
     border-radius: 50%;
     border: 5px solid $white;
-    width: 220px;
-    height: 220px;
+    width: 230px;
+    height: 230px;
     overflow: hidden;
 }
 
 .author__photo {
 	display: block;
-	max-width: 220px;
-    max-height: 220px;
+	max-width: 230px;
+    max-height: 230px;
 }
 .about-page {
-	width: 380px;
+	width: 382px;
 	float: right;
 }
 .page-title .page-title--about {
 	margin-bottom: -7px;
 }
 .about-page__text {
-	height: 300px;
-	overflow: auto;
-	margin-bottom: 92px;
+	height: 317px;
+    overflow-y: auto;
 }
 .about-page__text-block {
 	font-weight: 300;
@@ -40,8 +38,9 @@
 }
 
 .author-download {
+	margin-top: 83px;
 	text-align: right;
 }
-.author-download__title {
-	margin-left: 8px;
+.btn__title {
+	margin-left: 10px;
 }

@@ -1,3 +1,6 @@
+.page-title--career {
+	margin-bottom: 22px;
+}
 .career-author {
 	width: 220px;
 	float: left;
@@ -12,8 +15,8 @@
 }
 .career-author__photo {
 	display: block;
-	max-height: 100%;
-	max-width: 100%;
+	max-width: 220px;
+    max-height: 220px;
 }
 // .career {
 // 	float: right;
@@ -116,7 +119,4 @@
 .career-list__info::after {
 	top: 50%;
 	bottom: -25px;
-}
-.page-title .page-title--career {
-	margin-bottom: 18px;
 }

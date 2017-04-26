@@ -2803,9 +2803,10 @@ h6 {
   overflow-y: auto;
   font-weight: 300;
   color: #646464;
-  margin-bottom: 55px; }
+  line-height: 1.4; }
 
 .author-download {
+  margin-top: 75px;
   text-align: right; }
 
 .btn__title {
@@ -2922,6 +2923,9 @@ h6 {
   top: 50%;
   bottom: -25px; }
 
+.page-content {
+  margin-bottom: 15px; }
+
 .content {
   width: 700px;
   float: right;
@@ -2934,8 +2938,10 @@ h6 {
   line-height: 1.2; }
 
 .btn {
+  display: inline-block;
+  vertical-align: middle;
   text-decoration: none;
-  padding: 7px 17px;
+  padding: 7px 18px;
   border: 2px solid #e85f61;
   border-radius: 30px;
   font-size: 14px;
@@ -2979,6 +2985,8 @@ h6 {
 
 .head-author__contacts {
   position: relative;
+  display: inline-block;
+  vertical-align: middle;
   text-align: right;
   font-weight: 600; }
 
@@ -3002,7 +3010,7 @@ h6 {
   top: 60px;
   left: 60%;
   width: 230px;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.8);
   border: 1px solid #dedede;
   border-radius: 9px;
   text-align: left;
@@ -3021,6 +3029,16 @@ h6 {
     -webkit-transform: translateX(-50%) rotate(45deg);
     -ms-transform: translateX(-50%) rotate(45deg);
     transform: translateX(-50%) rotate(45deg);
+    z-index: -1; }
+  .popup-contacts::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 17px;
+    background: transparent;
+    top: -15px;
+    left: 0;
     z-index: -1; }
 
 .head-author__contacts:hover .popup-contacts {

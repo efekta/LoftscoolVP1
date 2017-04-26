@@ -32,6 +32,8 @@
 
 .head-author__contacts {
 	position: relative;
+	display: inline-block;
+	vertical-align: middle;
 	text-align: right;
 	font-weight: 600;
 
@@ -81,7 +83,7 @@
 	top: 60px;
 	left: 60%;
 	width: 230px;
-	background: $white;
+	background: rgba(255, 255, 255, .8);
 	border: 1px solid #dedede;
 	border-radius: 9px;
 	text-align: left;
@@ -98,8 +100,19 @@
 		top: -10px;
 		left: 50%;
 		transform: translateX(-50%) rotate(45deg);
-		z-index: -1;// -1 не работает, треугольник не отображается
+		z-index: -1;
 	}
+		&::after {
+		content: "";
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 17px;
+		background: transparent;
+		top: -15px;
+		left: 0;		
+		z-index: -1;
+	}	
 }
 .head-author__contacts:hover
 .popup-contacts {

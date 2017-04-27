@@ -36,30 +36,8 @@
 	vertical-align: middle;
 	text-align: right;
 	font-weight: 600;
-
-	// 	&::before { как правильнее псевдоэлементом или бордером
-	// 	content: "";
-	// 	display: block;
- //    	position: absolute;
- //    	right: 0;
- //    	bottom: 15px;
- //    	width: 122px;
- //    	height: 4px;
- //    	background: url(../img/icons/spritesheet.png);
- //    	background-position: -5px -85px;
-	// }
-	// 	&:hover::after {
-	// 	content: "";
-	// 	display: block;
- //    	position: absolute;
- //    	right: 0;
- //    	bottom: 15px;
- //    	width: 122px;
- //    	height: 4px;
- // 	background: url(../img/icons/spritesheet.png);
- //    	background-position: -5px -164px;
-	// }
 }
+
 .head-contacts__popup-list {
 	position: relative;
 	font-weight: 600;
@@ -70,7 +48,6 @@
 	color: $blue;
 	padding-bottom: 2px;
 	background: url("../img/bg/blue-bg-head.png") 0 bottom repeat-x;
-
 		&:hover {
 		color: $red;
 		background: url("../img/bg/red-bg-head.png") 0 bottom repeat-x;
@@ -126,38 +103,32 @@
 	border-bottom: none;
 }
 .popup-contacts__link {
-	// position: relative;
-	display: block;
+	display: inline-block;
+	vertical-align: middle;
 	text-decoration: none;
 	color: $black;
 	font-weight: 300;
 	font-size: 18px;
-	padding-left: 25px;
-	background: url("../img/icons/spritesheet.png") no-repeat;
-}
-.popup-contacts__icon_mail {
-	// position: absolute;
-	// top: 50%;
-	// left: 0;
-	// width: 19px;
- //    height: 15px;
-	background-position: -5px -135px;
+	max-width: 130px;
+	// padding-left: 25px;
+	// background: url("../img/icons/spritesheet.png") no-repeat;
 }
 
-.popup-contacts__icon_tel {
-	// position: absolute;
-	// top: 50%;
-	// left: 0;
-	// width: 15px;
- //    height: 16px;
-	background-position: -3px -202px;
-}
+// .popup-contacts__icon_mail {
+// 	background-position: -5px -135px;
+// }
 
-.popup-contacts__icon_skype {
-	// position: absolute;
-	// top: 50%;
-	// left: 0;
-	// width: 16px;
- //    height: 17px;
-	background-position: -5px -175px;
+// .popup-contacts__icon_tel {
+// 	background-position: -3px -202px;
+// }
+
+// .popup-contacts__icon_skype {
+// 	background-position: -5px -175px;
+// }
+.popup-contacts__icon {
+	font-size: 18px;
+	color: $blue;
+	margin-right: 5px;
+	display: inline-block;
+	vertical-align: middle;
 }

@@ -12,7 +12,7 @@
 
 	.head-author__name {
 		max-width: 150px;
-    	font-size: rem(14px);
+    	font-size: 1.1rem;
     	width: 56%;
 	}
 	.author {
@@ -26,22 +26,28 @@
 	.page-sidebar {
 		margin-bottom: 10px;
 	}
+
 	.page-sidebar__list {
 		text-align: center;
 	}
+
 	.page-sidebar__icon {
 		display: none;
 	}
+
 	.page-sidebar__link {
-    
     margin-right: -25px;
 	}
+
 	.page-sidebar__link-title {
 		font-size: rem(14px);
 	}
+
 	.page-title {
 		font-size: rem(22px);
+		margin-bottom: 0;
 	}
+
 	.about-page__text {
 		font-size: rem(16px);
 	}

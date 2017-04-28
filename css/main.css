@@ -3271,6 +3271,10 @@ h6 {
   width: 300px;
   height: 232px; }
 
+@media screen and (max-width: 1200px) {
+  .wrapper, .page-foot {
+    min-width: 0px; } }
+
 @media screen and (max-width: 992px) {
   .container {
     width: 768px;
@@ -3355,7 +3359,38 @@ h6 {
   .author-download {
     text-align: center;
     margin-top: 0;
-    margin-bottom: 80px; } }
+    margin-bottom: 80px; }
+  .page-foot__copiright, .social {
+    width: 100%;
+    float: none;
+    text-align: center; }
+  .page-foot {
+    min-height: 95px;
+    margin-top: -95px;
+    padding: 0 10px; }
+  .page-foot__copiright, .social {
+    padding-top: 5px; }
+  .social__list {
+    padding-bottom: 5px; } }
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 0 10px; }
+  .head-author__about {
+    width: 72%; }
+  .head-author__name {
+    max-width: 150px;
+    font-size: 14px;
+    width: 56%; }
+  .page-sidebar {
+    margin-bottom: 10px; }
+  .page-sidebar__list {
+    text-align: center; }
+  .page-sidebar__icon {
+    display: none; }
+  .page-sidebar__link {
+    margin-right: -25px; } }
 
 .container:after, .about:after, .work-list:after {
   content: "";

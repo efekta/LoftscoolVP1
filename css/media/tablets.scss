@@ -76,4 +76,21 @@
 		margin-top: 0;
 		margin-bottom: 80px;
 	}
+	.page-foot__copiright, .social {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.page-foot {
+        min-height: 95px;
+        margin-top: -95px;
+        // width: 300px;
+        padding: 0 10px;
+	}
+	.page-foot__copiright, .social {
+		padding-top: 5px;
+	}
+	.social__list {
+		padding-bottom: 5px;
+	}
 }

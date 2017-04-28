@@ -1,0 +1,79 @@
+@media screen and (max-width: 768px) {
+	.container {
+		width: 480px;
+		padding: 0;
+	}
+	.head-author__about {
+		width: 75%;
+	}
+	.head-author__contacts {
+		width: 25%;
+	}
+	.head-author__wrapp {
+		display: inline-block;
+		position: relative;
+		margin-top: 15px;
+	}	
+	.popup-contacts {
+    	left: 0%;
+    }	
+	.head-contacts__popup-list {
+		text-indent: 9999px;
+    	display: inline-block;
+    	white-space: nowrap;
+    	width: 32px;
+    	height: 32px;
+    	background: url('../img/icons/phone.png') 0 0 no-repeat;
+    	&:hover {
+    		background: url('../img/icons/phone-red.png') 0 0 no-repeat;
+    	}
+	}
+	.page-sidebar {
+		float: none;
+    	width: 100%;
+    	margin-bottom: 45px;
+	}
+	.page-sidebar__item {
+		display: inline-block;
+	} 
+	.page-sidebar__list {
+    	text-align: left;
+	}
+	.content {
+		float: none;
+    	width: 100%;
+	}
+	.about-author {
+		width: 35%;
+		margin-bottom: 10px;
+	}
+	.author {
+    	width: 170px;
+    	height: 170px;
+	}
+	.about-page {
+		width: 65%;
+	}
+	.about-author {
+		width: 100%;
+		float: none;
+		margin-bottom: 15px;
+	}
+	.about-page {
+		width: 100%;
+		float: none;
+	}
+	.page-title {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.about-page__text {
+		height: auto;
+		margin-bottom: 20px;
+	}
+	.author-download {
+		text-align: center;
+		margin-top: 0;
+		margin-bottom: 80px;
+	}
+}

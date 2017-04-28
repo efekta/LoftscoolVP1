@@ -1,0 +1,36 @@
+@media screen and (max-width: 992px) {
+	.container {
+		width: 768px;
+		padding: 0 20px;
+	}
+	.popup-contacts {
+    	left: 37%;
+    	width: 61%;
+    
+	}
+	.page-sidebar {
+		float: none;
+    	width: 100%;
+    	margin-bottom: 45px;
+	}
+	.page-sidebar__item {
+		display: inline-block;
+	} 
+	.page-sidebar__list {
+    	text-align: left;
+	}
+	.content {
+		float: none;
+    	width: 100%;
+	}
+	.about-author {
+		width: 35%;
+	}
+	.author {
+    	width: 170px;
+    	height: 170px;
+	}
+	.about-page {
+		width: 65%;
+	}
+}

@@ -1,7 +1,8 @@
 
 .about-author {
 	float: left;
-	width: 296px;
+	// width: 296px;
+	width: 40%;
 	text-align: center;
 }
 
@@ -21,7 +22,8 @@
     max-height: 230px;
 }
 .about-page {
-	width: 382px;
+	// width: 382px;
+	width: 56%;
 	float: right;
 }
 .page-title .page-title--about {
@@ -35,7 +37,6 @@
     line-height: 1.4; 
 }
 
-
 .author-download {
 	margin-top: 75px;
 	text-align: right;
@@ -43,3 +44,24 @@
 .btn__title {
 	margin-left: 10px;
 }
+
+
+// .author-download {
+//     margin-top: 83px;
+//     text-align: right;
+//     padding: 7px 17px;
+//     border: 2px solid #e85f61;
+//     border-radius: 30px;
+//     width: 200px;
+//     float: right;
+// }
+
+// .author-download {
+// 	margin-top: 83px;
+// 	text-align: right;
+// 	display: inline-block;
+// 	vertical-align: middle;
+// }
+// .btn__title {
+// 	margin-left: 10px;
+// }

@@ -1,10 +1,12 @@
 .page-content {
 	margin-bottom: 15px;
+	// padding-bottom: 50px; 20.04 2017г обрати внимание
 }
 .content {
-	width: 700px;
+	// width: 700px;
+	width: 73%;
     float: right;
-    margin-left: 20px;
+    // margin-left: 20px;
 }
 
 .page-title {
@@ -29,6 +31,7 @@
 		background: $red;
 	}	
 }
+
 .btn__icon, .btn__title {
 	display: inline-block;
 	vertical-align: middle;

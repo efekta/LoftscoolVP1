@@ -6,6 +6,11 @@
 	}
 }
 
-@function rem($px) {
-	@return $px/16px+0rem;
+
+
+@function rem($size) {
+  @return $size / $root-font-size * 1rem;
 }
+
+
+

@@ -12,7 +12,7 @@
 	.page-sidebar {
 		float: none;
     	width: 100%;
-    	margin-bottom: 45px;
+    	margin-bottom: 40px;
 	}
 	.page-sidebar__item {
 		display: inline-block;
@@ -38,14 +38,25 @@
 	.about-page {
 		width: 65%;
 	}
+	.page-title {
+		margin-bottom: 24px;
+	}
+// 	.wrap-pic {
+//   		width: 228px;
+//   		height: 228px;
+// }
+// 	.career-author__photo {
+// 		max-width: 228px;
+//     	max-height: 228px;
+// }
 	.about-page__text {
 		margin-bottom: 45px;
 }
 
 	.author-download {
 		margin-top: 45px;
-}
-
+	}
+	
 }
 
 

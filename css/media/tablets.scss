@@ -95,4 +95,25 @@
 	.social__list {
 		padding-bottom: 5px;
 	}
+	//Career
+	.career-author, .career-info {
+    	width: 100%;
+    	float: none;
+    	text-align: center;
+	}
+	.career-author {
+		margin-bottom: 15px;
+	}
+	.career-list__info::before,
+	.career-list__info::after,
+	.career-list__year::before,
+	.career-list__year {
+       display: none;
+	}
+	.career-list__info {
+		width: 100%;
+	}
+	.career-list__item {
+    padding-left: 0;
+	}
 }

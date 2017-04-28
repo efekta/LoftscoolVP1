@@ -1635,25 +1635,27 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .about-page__text { height: 317px; overflow-y: auto; font-weight: 300; color: #646464; line-height: 1.4; }
 
+.about-page__text p { margin: 0; }
+
 .author-download { margin-top: 75px; text-align: right; }
 
 .btn__title { margin-left: 10px; }
 
 .page-title--career { margin-bottom: 22px; }
 
-.career-author { width: 220px; float: left; }
+.career-author { width: 32.5%; float: left; }
 
 .wrap-pic { display: inline-block; text-align: center; border-radius: 9px; width: 220px; height: 220px; overflow: hidden; }
 
 .career-author__photo { display: block; max-width: 220px; max-height: 220px; }
 
-.career-info { width: 455px; float: right; }
+.career-info { width: 67.5%; float: right; }
 
 .career-list { text-align: right; }
 
-.career-list__item { padding-left: 70px; }
+.career-list__item { padding-left: 70px; margin-bottom: 20px; }
 
-.career-list__info { position: relative; text-align: left; border-radius: 10px; background-color: #ffffff; box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2); width: 380px; margin-bottom: 21px; padding: 15px 20px; display: inline-block; cursor: pointer; }
+.career-list__info { position: relative; text-align: left; border-radius: 10px; background-color: #ffffff; box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2); width: 380px; padding: 15px; display: inline-block; cursor: pointer; }
 
 .career-list__item:hover .career-list__info { background: #32c3e5; }
 
@@ -1679,7 +1681,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .career-list__info::after { top: 50%; bottom: -25px; }
 
-.page-content { margin-bottom: 15px; }
+.page-content { margin-bottom: 60px; }
 
 .content { width: 73%; float: right; }
 
@@ -1798,7 +1800,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 @media screen and (max-width: 992px) { html { font-size: 18px; }
   .container { width: 768px; padding: 0 20px; }
   .popup-contacts { left: 35%; }
-  .page-sidebar { float: none; width: 100%; margin-bottom: 45px; }
+  .page-sidebar { float: none; width: 100%; margin-bottom: 40px; }
   .page-sidebar__item { display: inline-block; }
   .page-sidebar__list { text-align: left; }
   .content { float: none; width: 100%; }
@@ -1806,6 +1808,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
   .author { width: 170px; height: 170px; }
   .author__photo { max-width: 170px; max-height: 170px; }
   .about-page { width: 65%; }
+  .page-title { margin-bottom: 24px; }
   .about-page__text { margin-bottom: 45px; }
   .author-download { margin-top: 45px; } }
 
@@ -1832,7 +1835,12 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
   .page-foot__copiright, .social { width: 100%; float: none; text-align: center; }
   .page-foot { min-height: 95px; margin-top: -95px; padding: 0 10px; }
   .page-foot__copiright, .social { padding-top: 5px; }
-  .social__list { padding-bottom: 5px; } }
+  .social__list { padding-bottom: 5px; }
+  .career-author, .career-info { width: 100%; float: none; text-align: center; }
+  .career-author { margin-bottom: 15px; }
+  .career-list__info::before, .career-list__info::after, .career-list__year::before, .career-list__year { display: none; }
+  .career-list__info { width: 100%; }
+  .career-list__item { padding-left: 0; } }
 
 @media screen and (max-width: 480px) { html { font-size: 14px; }
   .container { width: 95%; }

@@ -1,7 +1,9 @@
 @media screen and (max-width: 480px) {
+	html {
+		font-size: 14px;
+	}	
 	.container {
-		// width: 320px;
-		width: 100%;
+		width: auto;
 		padding: 0 10px;
 	}	
 	.head-author__about {
@@ -10,9 +12,17 @@
 
 	.head-author__name {
 		max-width: 150px;
-    	font-size: 14px;
+    	font-size: rem(14px);
     	width: 56%;
 	}
+	.author {
+    	width: 145px;
+    	height: 145px;
+	}
+	.author__photo {
+		max-width: 145px;
+    	max-height: 145px;
+}	
 	.page-sidebar {
 		margin-bottom: 10px;
 	}
@@ -26,4 +36,15 @@
     
     margin-right: -25px;
 	}
+	.page-sidebar__link-title {
+		font-size: rem(14px);
+	}
+	.page-title {
+		font-size: rem(22px);
+	}
+	.about-page__text {
+		font-size: rem(16px);
+	}
 }
+
+

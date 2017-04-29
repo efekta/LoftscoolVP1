@@ -1685,7 +1685,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .content { width: 73%; float: right; }
 
-.page-title { color: #414141; font-weight: 500; font-size: 35px; line-height: 1.2; }
+.page-title { color: #414141; font-weight: 500; font-size: 2rem; line-height: 1.2; }
 
 .btn { display: inline-block; vertical-align: middle; text-decoration: none; padding: 7px 10px; border: 3px solid #e85f61; border-radius: 30px; font-size: 14px; font-weight: 600; color: #e85f61; font-family: 'OpenSans'; }
 
@@ -1831,7 +1831,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
   .about-author { width: 100%; float: none; margin-bottom: 15px; }
   .about-page { width: 100%; float: none; }
   .page-title { text-align: center; margin-bottom: 15px; }
-  .about-page__text { height: auto; margin-bottom: 20px; }
+  .about-page__text { height: auto; margin-bottom: 20px; overflow-y: visible; }
   .author-download { text-align: center; margin-top: 0; margin-bottom: 80px; }
   .page-foot__copiright, .social { width: 100%; float: none; text-align: center; }
   .page-foot { min-height: 95px; margin-top: -95px; padding: 0 10px; }

@@ -1800,7 +1800,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 @media screen and (max-width: 992px) { html { font-size: 18px; }
   .container { width: 768px; padding: 0 20px; }
   .popup-contacts { left: 35%; }
-  .page-sidebar { float: none; width: 100%; margin-bottom: 40px; }
+  .page-sidebar { float: none; width: 100%; margin-bottom: 24px; }
   .page-sidebar__item { display: inline-block; }
   .page-sidebar__list { text-align: left; }
   .content { float: none; width: 100%; }
@@ -1810,7 +1810,8 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
   .about-page { width: 65%; }
   .page-title { margin-bottom: 24px; }
   .about-page__text { margin-bottom: 45px; }
-  .author-download { margin-top: 45px; } }
+  .author-download { margin-top: 45px; }
+  .potrfolio { width: 100%; } }
 
 @media screen and (max-width: 768px) { html { font-size: 16px; }
   .container { width: 480px; padding: 0; }
@@ -1840,7 +1841,8 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
   .career-author { margin-bottom: 15px; }
   .career-list__info::before, .career-list__info::after, .career-list__year::before, .career-list__year { display: none; }
   .career-list__info { width: 100%; }
-  .career-list__item { padding-left: 0; } }
+  .career-list__item { padding-left: 0; }
+  .work-list { text-align: center; } }
 
 @media screen and (max-width: 480px) { html { font-size: 14px; }
   .container { width: 95%; }

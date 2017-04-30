@@ -1795,7 +1795,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 @media screen and (max-width: 1200px) { .wrapper, .page-foot { min-width: 0px; } }
 
-@media screen and (max-width: 992px) { html { font-size: 16px; }
+@media screen and (max-width: 992px) { html { font-size: 18px; }
   .container { width: 768px; padding: 0 20px; }
   .popup-contacts { left: 35%; }
   .page-sidebar { float: none; width: 100%; margin-bottom: 24px; }
@@ -1811,7 +1811,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
   .author-download { margin-top: 45px; }
   .potrfolio { width: 100%; } }
 
-@media screen and (max-width: 768px) { html { font-size: 14px; }
+@media screen and (max-width: 768px) { html { font-size: 16px; }
   .container { width: 480px; padding: 0; }
   .head-author__about { width: 75%; }
   .head-author__contacts { width: 25%; }

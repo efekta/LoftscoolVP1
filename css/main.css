@@ -1697,7 +1697,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .wrap-author { display: inline-block; vertical-align: middle; width: 60px; height: 60px; border-radius: 50%; border: 1px solid #727272; overflow: hidden; }
 
-.head-author__name { max-width: 235px; margin-left: 15px; display: inline-block; vertical-align: middle; font-weight: 400; font-size: rem(22px); }
+.head-author__name { max-width: 235px; margin-left: 15px; display: inline-block; vertical-align: middle; font-weight: 400; font-size: rem(18px); }
 
 .head-author__contacts { position: relative; display: inline-block; vertical-align: middle; text-align: right; font-weight: 600; }
 
@@ -1843,7 +1843,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 @media screen and (max-width: 480px) { html { font-size: 14px; }
   .container { width: 95%; }
   .head-author__about { width: 72%; }
-  .head-author__name { max-width: 150px; font-size: rem(18px); width: 56%; }
+  .head-author__name { max-width: 150px; font-size: rem(14px); width: 56%; }
   .author { width: 145px; height: 145px; }
   .author__photo { max-width: 145px; max-height: 145px; }
   .page-sidebar { margin-bottom: 10px; }

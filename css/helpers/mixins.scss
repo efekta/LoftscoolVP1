@@ -40,5 +40,5 @@
 //   font-size: calculateRem($size);
 // }
 @function rem($size) {
-  @return $size / $root-font-size * 1rem;
+  @return $size / $root-font-size + 0rem;
 }

@@ -1,7 +1,8 @@
 @media screen and (max-width: 480px) {
-	html {
-		font-size: 14px;
-	}	
+	// html {
+	// 	$size: 14px;
+	// 	font-size: $size;
+	// }	
 	.container {
 		width: 95%;
 		// padding: 0 10px;
@@ -12,7 +13,7 @@
 
 	.head-author__name {
 		max-width: 150px;
-    	font-size: 1.1rem;
+    	font-size: rem(18px);
     	width: 56%;
 	}
 	.author {
@@ -44,7 +45,7 @@
 	}
 
 	.page-title {
-		font-size: rem(22px);
+		font-size: rem(26px);
 		margin-bottom: 0;
 	}
 

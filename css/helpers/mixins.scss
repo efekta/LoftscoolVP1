@@ -5,12 +5,40 @@
 		clear: both;
 	}
 }
+// @mixin desktop {
+// 	@media screen and (max-width: 1200px) {
+// 	@content;
+// 	}
+// }
+// @mixin laptop {
+// 	@media screen and (max-width: 992px) {
+// 	@content;
+// 	}
+// }
+// @mixin tablets {
+// 	@media screen and (max-width: 768px) {
+// 	@content;
+// 	}
+// }
+// @mixin phones {
+// 	@media screen and (max-width: 480px) {
+// 	@content;
+// 	}
+// }
 
+// // @function rem($pixels) {
+// //   @return $px / $basePx + 0rem;
+// // }
 
+// @function calculateRem($size) {
+//   $remSize: $size / 16px;
+//   @return $remSize * 1rem;
+// }
 
+// @mixin font-size($size) {
+//   font-size: $size;
+//   font-size: calculateRem($size);
+// }
 @function rem($size) {
   @return $size / $root-font-size * 1rem;
 }
-
-
-

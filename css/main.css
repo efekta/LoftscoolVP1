@@ -1697,7 +1697,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .wrap-author { display: inline-block; vertical-align: middle; width: 60px; height: 60px; border-radius: 50%; border: 1px solid #727272; overflow: hidden; }
 
-.head-author__name { max-width: 235px; margin-left: 15px; display: inline-block; vertical-align: middle; font-weight: 400; font-size: rem(20px); }
+.head-author__name { max-width: 235px; margin-left: 15px; display: inline-block; vertical-align: middle; font-weight: 400; font-size: rem(22px); }
 
 .head-author__contacts { position: relative; display: inline-block; vertical-align: middle; text-align: right; font-weight: 600; }
 
@@ -1823,9 +1823,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
   .page-sidebar__item { display: inline-block; }
   .page-sidebar__list { text-align: left; }
   .content { float: none; width: 100%; }
-  .about-author { width: 35%; margin-bottom: 10px; }
   .author { width: 170px; height: 170px; }
-  .about-page { width: 65%; }
   .about-author { width: 100%; float: none; margin-bottom: 15px; }
   .about-page { width: 100%; float: none; }
   .page-title { text-align: center; margin-bottom: 15px; }
@@ -1842,7 +1840,8 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
   .career-list__item { padding-left: 0; }
   .work-list { text-align: center; } }
 
-@media screen and (max-width: 480px) { .container { width: 95%; }
+@media screen and (max-width: 480px) { html { font-size: 14px; }
+  .container { width: 95%; }
   .head-author__about { width: 72%; }
   .head-author__name { max-width: 150px; font-size: rem(18px); width: 56%; }
   .author { width: 145px; height: 145px; }

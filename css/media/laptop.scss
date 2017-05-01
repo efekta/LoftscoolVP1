@@ -10,10 +10,13 @@
 	.popup-contacts {
 		left: 35%;
 	}
+	.popup-contacts::before {
+		left: 80%;
+	}
 	.page-sidebar {
 		float: none;
     	width: 100%;
-    	margin-bottom: 24px;
+    	margin-bottom: 20px;
 	}
 	.page-sidebar__item {
 		display: inline-block;
@@ -21,6 +24,11 @@
 	.page-sidebar__list {
     	text-align: left;
 	}
+	.page-sidebar__link {
+		border-right: none;
+		display: inline-block;
+	}
+	
 	.content {
 		float: none;
     	width: 100%;
@@ -40,20 +48,21 @@
 		width: 65%;
 	}
 	.page-title {
-		margin-bottom: 24px;
+		margin-bottom: 20px;
 	}
-// 	.wrap-pic {
-//   		width: 228px;
-//   		height: 228px;
-// }
-// 	.career-author__photo {
-// 		max-width: 228px;
-//     	max-height: 228px;
-// }
+     .wrap-pic {
+  		width: 228px;
+  		height: 228px;
+	}
+ //  .career-author__photo {
+ // 	max-height: 228px;
+ //   	max-width: 228px;
+ //    	min-height: 228px;
+ //    	min-width: 228px;
+ // }
 	.about-page__text {
 		margin-bottom: 45px;
-}
-
+	}
 	.author-download {
 		margin-top: 45px;
 	}

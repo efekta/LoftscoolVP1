@@ -3,17 +3,24 @@
 		$size: 14px;
 		font-size: $size;
 	}	
+	.wrapper, .page-foot {
+    	min-width: 320px;
+	}		
 	.container {
 		width: 95%;
-		// padding: 0 10px;
 	}	
 	.head-author__about {
-    	width: 72%;
-}
-
+    	width: 80%;
+	}
+	.head-author__contacts {
+    	width: 20%;
+	}
+	.popup-contacts {
+		left: -140px;
+	}
 	.head-author__name {
 		max-width: 150px;
-    	font-size: rem(14px);
+    	font-size: 14px;
     	width: 56%;
 	}
 	.author {
@@ -25,7 +32,7 @@
     	max-height: 145px;
 }	
 	.page-sidebar {
-		margin-bottom: 10px;
+		margin-bottom: 25px;
 	}
 
 	.page-sidebar__list {
@@ -35,23 +42,35 @@
 	.page-sidebar__icon {
 		display: none;
 	}
-
 	.page-sidebar__link {
-    margin-right: -25px;
+		padding-right: 0;
+		margin-right: 5px;
 	}
 
 	.page-sidebar__link-title {
-		font-size: rem(14px);
+		font-size: 14px;
 	}
 
 	.page-title {
 		font-size: rem(26px);
-		margin-bottom: 0;
+		margin-bottom: 20px;
 	}
 
 	.about-page__text {
 		font-size: rem(16px);
+		overflow-y: visible;
 	}
-}
 
+//portfolio
+	.work-list {
+    	text-align: center;
+	}
+	//career
+	.career-list__place-of-work {
+    	font-size: 18px;
+    }
+    .career-list__profession, .career-list__date-of-work {
+    	font-size: 16px;
+    }
+}
 

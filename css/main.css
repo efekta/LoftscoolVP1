@@ -1643,9 +1643,9 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .career-author { width: 32.5%; float: left; }
 
-.wrap-pic { display: inline-block; text-align: center; border-radius: 9px; width: 220px; height: 220px; overflow: hidden; }
+.wrap-pic { display: inline-block; text-align: center; border-radius: 9px; width: 220px; height: 220px; background-size: cover; background-position: center center; background-repeat: no-repeat; }
 
-.career-author__photo { display: block; max-width: 220px; max-height: 220px; }
+.career-author__photo { display: none; }
 
 .career-info { width: 67.5%; float: right; }
 
@@ -1681,7 +1681,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .page-content { margin-bottom: 60px; }
 
-.content { width: 73%; float: right; }
+.content { width: 75%; float: right; }
 
 .page-title { color: #414141; font-weight: 500; font-size: rem(35px); line-height: 1.2; }
 
@@ -1705,7 +1705,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .head-contacts__popup-list:hover { color: #e85f61; background: url("../img/bg/red-bg-head.png") 0 bottom repeat-x; }
 
-.popup-contacts { display: none; position: absolute; top: 60px; left: 60%; width: 230px; background: rgba(255, 255, 255, 0.8); border: 1px solid #dedede; border-radius: 9px; text-align: left; z-index: 2; }
+.popup-contacts { display: none; position: absolute; top: 60px; left: 64%; width: 230px; background: rgba(255, 255, 255, 0.8); border: 1px solid #dedede; border-radius: 9px; text-align: left; z-index: 2; }
 
 .popup-contacts::before { content: ""; display: block; position: absolute; width: 17px; height: 17px; background: #ffffff; border-top: 1px solid #dedede; border-left: 1px solid #dedede; top: -10px; left: 50%; -webkit-transform: translateX(-50%) rotate(45deg); -ms-transform: translateX(-50%) rotate(45deg); transform: translateX(-50%) rotate(45deg); z-index: -1; }
 
@@ -1753,13 +1753,15 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .work-list * { font-size: 14px; }
 
-.work-list__item { border-radius: 10px; background-color: white; box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2); width: 220px; overflow: hidden; display: inline-block; vertical-align: top; margin: 18px 0 0px 20px; }
+.work-list__item { border-radius: 10px; background-color: white; box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2); width: 220px; overflow: hidden; display: inline-block; vertical-align: top; margin-left: 20px; margin-bottom: 20px; }
 
 .work-list__link { display: block; text-decoration: none; }
 
 .work-list__link:hover .work-list__title { color: #e85f61; }
 
-.work-list__pic { display: block; max-width: 100%; }
+.work-list__image { width: 100%; height: 172px; background-size: cover; background-position: center center; background-repeat: no-repeat; }
+
+.work-list__pic { display: none; border-style: none; }
 
 .work-description { padding: 16px; }
 
@@ -1781,7 +1783,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .page-sidebar__item { position: relative; padding: 10px 0; }
 
-.page-sidebar__link { border-right: 6px solid transparent; text-decoration: none; color: #414141; font-weight: 400; padding: 7px 22px 9px 0; line-height: 1.2; margin-right: -4px; }
+.page-sidebar__link { border-right: 6px solid transparent; text-decoration: none; color: #414141; font-weight: 400; padding: 7px 22px 9px 0; line-height: 1.2; }
 
 .page-sidebar__link:hover { color: #32c3e5; }
 
@@ -1793,20 +1795,23 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .page-hello { width: 300px; height: 232px; }
 
-@media screen and (max-width: 1200px) { .wrapper, .page-foot { min-width: 0px; } }
+@media screen and (max-width: 1200px) { .wrapper, .page-foot { min-width: 0; } }
 
 @media screen and (max-width: 992px) { html { font-size: 18px; }
   .container { width: 768px; padding: 0 20px; }
   .popup-contacts { left: 35%; }
-  .page-sidebar { float: none; width: 100%; margin-bottom: 24px; }
+  .popup-contacts::before { left: 80%; }
+  .page-sidebar { float: none; width: 100%; margin-bottom: 20px; }
   .page-sidebar__item { display: inline-block; }
   .page-sidebar__list { text-align: left; }
+  .page-sidebar__link { border-right: none; display: inline-block; }
   .content { float: none; width: 100%; }
   .about-author { width: 35%; }
   .author { width: 170px; height: 170px; }
   .author__photo { max-width: 170px; max-height: 170px; }
   .about-page { width: 65%; }
-  .page-title { margin-bottom: 24px; }
+  .page-title { margin-bottom: 20px; }
+  .wrap-pic { width: 228px; height: 228px; }
   .about-page__text { margin-bottom: 45px; }
   .author-download { margin-top: 45px; }
   .potrfolio { width: 100%; } }
@@ -1816,43 +1821,47 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
   .head-author__about { width: 75%; }
   .head-author__contacts { width: 25%; }
   .head-author__wrapp { display: inline-block; position: relative; margin-top: 15px; }
-  .popup-contacts { left: 0; }
-  .head-contacts__popup-list { text-indent: 9999px; display: inline-block; white-space: nowrap; width: 32px; height: 32px; background: url("../img/icons/phone.png") 0 0 no-repeat; }
+  .popup-contacts { left: -90px; }
+  .head-contacts__popup-list { text-indent: 9999px; display: inline-block; vertical-align: top; white-space: nowrap; width: 32px; height: 32px; background: url("../img/icons/phone.png") 0 0 no-repeat; }
   .head-contacts__popup-list:hover { background: url("../img/icons/phone-red.png") 0 0 no-repeat; }
-  .page-sidebar { float: none; width: 100%; margin-bottom: 45px; }
-  .page-sidebar__item { display: inline-block; }
-  .page-sidebar__list { text-align: left; }
+  .page-sidebar { float: none; width: 100%; }
   .content { float: none; width: 100%; }
   .author { width: 170px; height: 170px; }
   .about-author { width: 100%; float: none; margin-bottom: 15px; }
   .about-page { width: 100%; float: none; }
   .page-title { text-align: center; margin-bottom: 15px; }
-  .about-page__text { height: auto; margin-bottom: 20px; overflow-y: visible; }
+  .about-page__text { height: auto; margin-bottom: 20px; }
   .author-download { text-align: center; margin-top: 0; margin-bottom: 80px; }
   .page-foot__copiright, .social { width: 100%; float: none; text-align: center; }
   .page-foot { min-height: 95px; margin-top: -95px; padding: 0 10px; }
-  .page-foot__copiright, .social { padding-top: 5px; }
-  .social__list { padding-bottom: 5px; }
+  .page-foot__design { margin: 0; }
+  .page-foot__copiright { padding-top: 12px; }
+  .social { padding-top: 10px; }
   .career-author, .career-info { width: 100%; float: none; text-align: center; }
   .career-author { margin-bottom: 15px; }
   .career-list__info::before, .career-list__info::after, .career-list__year::before, .career-list__year { display: none; }
   .career-list__info { width: 100%; }
-  .career-list__item { padding-left: 0; }
-  .work-list { text-align: center; } }
+  .career-list__item { padding-left: 0; } }
 
 @media screen and (max-width: 480px) { html { font-size: 14px; }
+  .wrapper, .page-foot { min-width: 320px; }
   .container { width: 95%; }
-  .head-author__about { width: 72%; }
-  .head-author__name { max-width: 150px; font-size: rem(14px); width: 56%; }
+  .head-author__about { width: 80%; }
+  .head-author__contacts { width: 20%; }
+  .popup-contacts { left: -140px; }
+  .head-author__name { max-width: 150px; font-size: 14px; width: 56%; }
   .author { width: 145px; height: 145px; }
   .author__photo { max-width: 145px; max-height: 145px; }
-  .page-sidebar { margin-bottom: 10px; }
+  .page-sidebar { margin-bottom: 25px; }
   .page-sidebar__list { text-align: center; }
   .page-sidebar__icon { display: none; }
-  .page-sidebar__link { margin-right: -25px; }
-  .page-sidebar__link-title { font-size: rem(14px); }
-  .page-title { font-size: rem(26px); margin-bottom: 0; }
-  .about-page__text { font-size: rem(16px); } }
+  .page-sidebar__link { padding-right: 0; margin-right: 5px; }
+  .page-sidebar__link-title { font-size: 14px; }
+  .page-title { font-size: rem(26px); margin-bottom: 20px; }
+  .about-page__text { font-size: rem(16px); overflow-y: visible; }
+  .work-list { text-align: center; }
+  .career-list__place-of-work { font-size: 18px; }
+  .career-list__profession, .career-list__date-of-work { font-size: 16px; } }
 
 .container:after, .about:after, .work-list:after { content: ""; display: block; clear: both; }
 

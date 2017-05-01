@@ -19,11 +19,12 @@
 		margin-top: 15px;
 	}	
 	.popup-contacts {
-		left: 0;
+		left: -90px;
 	}	
 	.head-contacts__popup-list {
 		text-indent: 9999px;
     	display: inline-block;
+    	vertical-align: top;
     	white-space: nowrap;
     	width: 32px;
     	height: 32px;
@@ -35,14 +36,8 @@
 	.page-sidebar {
 		float: none;
     	width: 100%;
-    	margin-bottom: 45px;
 	}
-	.page-sidebar__item {
-		display: inline-block;
-	} 
-	.page-sidebar__list {
-    	text-align: left;
-	}
+	
 	.content {
 		float: none;
     	width: 100%;
@@ -67,7 +62,7 @@
 	.about-page__text {
 		height: auto;
 		margin-bottom: 20px;
-		overflow-y: visible;
+		// overflow-y: visible;
 	}
 	.author-download {
 		text-align: center;
@@ -84,12 +79,15 @@
         margin-top: -95px;
         padding: 0 10px;
 	}
-	.page-foot__copiright, .social {
-		padding-top: 5px;
+	.page-foot__design {
+		margin: 0;
 	}
-	.social__list {
-		padding-bottom: 5px;
+	.page-foot__copiright {
+    	padding-top: 12px;
 	}
+	.social {
+    	padding-top: 10px;
+	}	
 	//Career
 	.career-author, .career-info {
     	width: 100%;
@@ -111,8 +109,4 @@
 	.career-list__item {
     padding-left: 0;
 	}
-	//portfolio
-	.work-list {
-    	text-align: center;
-	}
-}
+ }

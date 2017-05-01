@@ -7,17 +7,18 @@
 	float: left;
 }
 .wrap-pic {
-  display: inline-block;
-  text-align: center;
-  border-radius: 9px;
-  width: 220px;
-  height: 220px;
-  overflow: hidden;
+  	display: inline-block;
+  	text-align: center;
+  	border-radius: 9px;
+ 	// overflow: hidden;
+  	width: 220px;
+    height: 220px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 .career-author__photo {
-	display: block;
-	max-width: 220px;
-    max-height: 220px;
+	display: none;
 }
 // .career {
 // 	float: right;

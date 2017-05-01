@@ -1,7 +1,66 @@
-.bg-hello {
+.hello-wrapper {
 	background: $background url("../img/bg/bg.jpg");
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	&::before {
+		content: '';
+		display: inline-block;
+		width: 0;
+		height: 100%;
+		vertical-align: middle;
+	}
 }
 .page-hello {
-	width: 300px;
-    height: 232px;
+	display: inline-block;
+	text-align: center;
+	background: $white;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 72px;
+}
+.page-hello__wrapp {
+    border: 1px solid rgb(190, 190, 190);
+  	border-radius: 50%;
+  	width: 144px;
+  	height: 144px;
+  	margin-bottom: 17px;
+  	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -72px;
+}
+
+.author__name {
+	font-size: 18px;
+	color: $black;
+	font-weight: 400;
+	font-family: 'fira', Arial, sans-serif;	
+	margin-bottom: 20px;
+}
+.hello-link {
+	background: $blue;
+	padding: 20px;
+	border-radius: 0 0 10px 10px;
+}
+.hello-link__about {
+	color: $white;
+	border-color: $white;
+	font-size: 14px;
+	font-weight: 600;
+	font-family: 'fira', Arial, sans-serif;
+	padding: 10px 20px;
+	&:hover {
+		color: $blue;
+		background: $white;
+	}
 }

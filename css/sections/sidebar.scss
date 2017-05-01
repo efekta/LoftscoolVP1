@@ -14,21 +14,34 @@
 	padding: 10px 0;
 }
 
-
+//анимашка бордера
 .page-sidebar__link {
-	border-right: 6px solid transparent;
+	position: relative;
+	// border-right: 6px solid transparent;
 	text-decoration: none;
 	color: $black;
 	font-weight: 400;
 	padding: 7px 22px 9px 0;
     line-height: 1.2;
-    // margin-right: -4px;
-	
+    // margin-right: -4px; не относится к анимашке
 	&:hover {
 		color: $blue;
 	}
 }
-
+.page-sidebar__link::before {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		width: 0;
+		background: $blue;
+		transition: .3s;
+	}
+.page-sidebar__link:hover::before {
+	width: 6px;
+}
 .page-sidebar__item_selected .page-sidebar__link{
 		border-color: $blue;
 		font-weight: 600;

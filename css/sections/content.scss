@@ -26,12 +26,15 @@
 	font-weight: 600;
 	color: $red;
 	font-family: 'OpenSans';
+	transition: .4s;
 		&:hover {
 		color: $white;
 		background: $red;
 	}	
 }
-
+.btn__title {
+	margin-left: 5px;
+}
 .btn__icon, .btn__title {
 	display: inline-block;
 	vertical-align: middle;

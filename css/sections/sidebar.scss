@@ -41,7 +41,7 @@
 		transition: .3s;
 	}
 .page-sidebar__link:hover::before {
-	width: 0px;
+	width: 6px;
 }
 .page-sidebar__item_selected .page-sidebar__link{
 		border-color: $blue;

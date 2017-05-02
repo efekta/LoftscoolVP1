@@ -28,7 +28,10 @@
 		border-right: none;
 		display: inline-block;
 	}
-	
+
+.page-sidebar__link::before {
+    display: none;
+}
 	.content {
 		float: none;
     	width: 100%;

@@ -14,7 +14,7 @@
 	padding: 10px 0;
 }
 
-//анимашка бордера
+
 .page-sidebar__link {
 	position: relative;
 	// border-right: 6px solid transparent;
@@ -28,6 +28,7 @@
 		color: $blue;
 	}
 }
+//анимашка бордера
 .page-sidebar__link::before {
 		content: '';
 		display: block;
@@ -35,12 +36,12 @@
 		top: 0;
 		right: 0;
 		bottom: 0;
-		width: 0;
+		width: 0px;
 		background: $blue;
 		transition: .3s;
 	}
 .page-sidebar__link:hover::before {
-	width: 6px;
+	width: 0px;
 }
 .page-sidebar__item_selected .page-sidebar__link{
 		border-color: $blue;

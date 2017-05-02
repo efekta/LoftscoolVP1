@@ -1787,9 +1787,9 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .page-sidebar__link:hover { color: #32c3e5; }
 
-.page-sidebar__link::before { content: ''; display: block; position: absolute; top: 0; right: 0; bottom: 0; width: 0; background: #32c3e5; transition: .3s; }
+.page-sidebar__link::before { content: ''; display: block; position: absolute; top: 0; right: 0; bottom: 0; width: 0px; background: #32c3e5; transition: .3s; }
 
-.page-sidebar__link:hover::before { width: 6px; }
+.page-sidebar__link:hover::before { width: 0px; }
 
 .page-sidebar__item_selected .page-sidebar__link { border-color: #32c3e5; font-weight: 600; color: #32c3e5; }
 
@@ -1821,6 +1821,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
   .page-sidebar__item { display: inline-block; }
   .page-sidebar__list { text-align: left; }
   .page-sidebar__link { border-right: none; display: inline-block; }
+  .page-sidebar__link::before { display: none; }
   .content { float: none; width: 100%; }
   .about-author { width: 35%; }
   .author { width: 170px; height: 170px; }

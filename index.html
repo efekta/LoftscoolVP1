@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru-Ru">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="keywords" content="html5, css3, js, javascript, jquery, jQuery, sass, scss, gulp, pug, jade, BEM, БЭМ, bootstrap, Бутстрап, webpack, mobile first, responsive, adaptive, резиновая верстка, адаптивная верстка, CMS Wordpress">
@@ -10,22 +11,29 @@
 	<title>Hello</title>
 	<link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-<!--[if lt IE 8]>
+	<!--[if lt IE 8]>
 	<p>Ваш браузер <strong>устарел</strong>. Пожалуйста, <a href="http://browsehappy.com/">обновите</a></p>
 <![endif]-->
-		<div class="hello-wrapper">
-			<section class="page-hello">
+	<div class="hello-wrapper">
+		<!-- <div class="wow zoomIn"> -->
+			<section class="page-hello wow zoomIn">
 				<div class="page-hello__author">
 					<div class="page-hello__top">
-						<div class="page-hello__wrapp" style="background-image: url(img/content/foto-author.jpeg);"></div>
+						<div class="page-hello__wrapp wow flip" data-wow-duration="3s" data-wow-delay="2" style="background-image: url(img/content/foto-author.jpeg);"></div>
 						<h1 class="author__name">Лилия Пташкина</h1>
 					</div>
-				</div>	
-					<div class="hello-link">
-						<a href="about.html" class="btn hello-link__about">Перейти на сайт</a>
-					</div>
+				</div>
+				<div class="hello-link">
+					<a href="about.html" class="btn hello-link__about wow bounceInDown" data-wow-delay="2s" data-wow-duration="3s">Перейти на сайт</a>
+				</div>
 			</section>
-		</div>
+		<!-- </div> -->
+	</div>
+	<script src="js/wow.js"></script>
+	<script>
+    new WOW().init();
+  </script>
 </body>
 </html>

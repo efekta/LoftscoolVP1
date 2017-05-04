@@ -1707,7 +1707,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .head-contacts__popup-list:hover { color: #e85f61; background: url("../img/bg/red-bg-head.png") 0 bottom repeat-x; }
 
-.popup-contacts { display: none; position: absolute; top: 60px; left: 64%; width: 230px; background: rgba(255, 255, 255, 0.8); border: 1px solid #dedede; border-radius: 9px; text-align: left; z-index: 2; }
+.popup-contacts { display: none; position: absolute; top: 55px; left: 64%; width: 230px; background: rgba(255, 255, 255, 0.8); border: 1px solid #dedede; border-radius: 9px; text-align: left; z-index: 2; }
 
 .popup-contacts::before { content: ""; display: block; position: absolute; width: 17px; height: 17px; background: #ffffff; border-top: 1px solid #dedede; border-left: 1px solid #dedede; top: -10px; left: 50%; -webkit-transform: translateX(-50%) rotate(45deg); -ms-transform: translateX(-50%) rotate(45deg); transform: translateX(-50%) rotate(45deg); z-index: -1; }
 

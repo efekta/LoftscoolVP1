@@ -1623,9 +1623,9 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .about-author { float: left; width: 40%; text-align: center; }
 
-.author { overflow: hidden; display: inline-block; border-radius: 50%; border: 5px solid #ffffff; width: 230px; height: 230px; overflow: hidden; }
+.author { display: inline-block; border-radius: 50%; border: 5px solid #ffffff; width: 230px; height: 230px; background-size: cover; background-position: center center; background-repeat: no-repeat; }
 
-.author__photo { display: block; max-width: 230px; max-height: 230px; }
+.author__photo { display: none; }
 
 .about-page { width: 55%; float: right; }
 
@@ -1695,7 +1695,9 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .head-author__about, .head-author__contacts { width: 50%; float: left; }
 
-.wrap-author { display: inline-block; vertical-align: middle; width: 60px; height: 60px; border-radius: 50%; border: 1px solid #727272; overflow: hidden; }
+.wrap-author { display: inline-block; vertical-align: middle; border-radius: 50%; border: 1px solid #727272; width: 60px; height: 60px; background-size: cover; background-position: center center; background-repeat: no-repeat; }
+
+.author-avatar { display: none; }
 
 .head-author__name { max-width: 235px; margin-left: 15px; display: inline-block; vertical-align: middle; font-weight: 400; font-size: 18px; }
 
@@ -1731,19 +1733,19 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .social__item { display: inline-block; vertical-align: middle; margin-left: 1px; }
 
-.social__link { display: block; width: 31px; height: 30px; background: url(../img/icons/spritesheet.png); }
+.social__link { display: block; width: 31px; height: 30px; background: url(../img/icons/spritesheet.png); transition: all .5s; }
 
 .social__link_fb { background-position: -5px -5px; }
 
-.social__link_fb:hover { background-position: -5px -85px; }
+.social__link_fb:hover { background-position: -5px -45px; }
 
-.social__link_vk { background-position: -5px -207px; }
+.social__link_vk { background-position: -87px -5px; }
 
-.social__link_vk:hover { background-position: -5px -247px; }
+.social__link_vk:hover { background-position: -87px -45px; }
 
-.social__link_tw { background-position: -5px -45px; }
+.social__link_tw { background-position: -46px -5px; }
 
-.social__link_tw:hover { background-position: -5px -167px; }
+.social__link_tw:hover { background-position: -46px -45px; }
 
 .page-title .page-title--portfolio { margin-bottom: 15px; }
 

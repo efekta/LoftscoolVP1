@@ -15,13 +15,18 @@
 .wrap-author {
 	display: inline-block;
 	vertical-align: middle;
-	width: 60px;
-	height: 60px;
   	border-radius: 50%;
   	border: 1px solid $gray;
-  	overflow: hidden;
+  	// overflow: hidden;
+	width: 60px;
+    height: 60px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;	  	
 }
-
+.author-avatar {
+	display: none;
+}
 .head-author__name {
 	max-width: 235px;
 	margin-left: 15px;

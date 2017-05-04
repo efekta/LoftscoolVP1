@@ -7,19 +7,20 @@
 }
 
 .author {
-    overflow: hidden;
 	display: inline-block;
     border-radius: 50%;
     border: 5px solid $white;
+    // overflow: hidden;
     width: 230px;
     height: 230px;
-    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;	  	
 }
 
+
 .author__photo {
-	display: block;
-	max-width: 230px;
-    max-height: 230px;
+	display: none;
 }
 .about-page {
 	// width: 382px;

@@ -1699,6 +1699,8 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .author-avatar { display: none; }
 
+.head-author__wrapp { display: inline-block; }
+
 .head-author__name { max-width: 235px; margin-left: 15px; display: inline-block; vertical-align: middle; font-weight: 400; font-size: 18px; }
 
 .head-author__contacts { position: relative; display: inline-block; vertical-align: middle; text-align: right; font-weight: 600; }
